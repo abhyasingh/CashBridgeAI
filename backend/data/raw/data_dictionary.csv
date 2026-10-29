@@ -1,0 +1,162 @@
+file,column,description
+cashbridge_master_dataset.csv,msme_id,Business key (joins to every other file)
+cashbridge_master_dataset.csv,business_name,Synthetic business name
+cashbridge_master_dataset.csv,sector,Industry segment
+cashbridge_master_dataset.csv,size_class,Micro / Small / Medium (Udyam classes)
+cashbridge_master_dataset.csv,state,State sampled from Kaggle Udyam counts
+cashbridge_master_dataset.csv,district,District sampled from Kaggle Udyam counts
+cashbridge_master_dataset.csv,accounting_software,"Data source the MSME would connect: Tally, QuickBooks, Bank/AA only, CSV/GST upload"
+cashbridge_master_dataset.csv,vintage_years,Years in business (cold-start flag if < 2)
+cashbridge_master_dataset.csv,annual_turnover_inr,Approx. annual turnover (INR)
+cashbridge_master_dataset.csv,employees,Approx. headcount
+cashbridge_master_dataset.csv,district_total_msme_units,Registered MSMEs in that district (Kaggle)
+cashbridge_master_dataset.csv,demo_showcase,1 = the 3 hand-picked demo businesses
+cashbridge_master_dataset.csv,week_index,0..103 week counter
+cashbridge_master_dataset.csv,week_start,Monday of the week (2024-10-28 to 2026-10-19)
+cashbridge_master_dataset.csv,month,Calendar month
+cashbridge_master_dataset.csv,week_of_year,ISO week
+cashbridge_master_dataset.csv,fy_quarter,Indian financial-year quarter (Apr-Mar)
+cashbridge_master_dataset.csv,festive_season_flag,1 if Oct/Nov (Diwali season)
+cashbridge_master_dataset.csv,gst_week_flag,1 if the week contains the GST due date (20th)
+cashbridge_master_dataset.csv,opening_balance,Bank balance at start of week (INR)
+cashbridge_master_dataset.csv,inflow_invoice_receipts,Cash received against invoices
+cashbridge_master_dataset.csv,inflow_cash_upi_sales,Cash/UPI counter sales settled to bank
+cashbridge_master_dataset.csv,inflow_owner_infusion,Emergency owner/informal funding (rare)
+cashbridge_master_dataset.csv,operating_inflow,receipts + cash/UPI sales
+cashbridge_master_dataset.csv,total_inflow,operating_inflow + owner infusion
+cashbridge_master_dataset.csv,outflow_supplier_purchases,Supplier payments
+cashbridge_master_dataset.csv,outflow_salaries,Payroll
+cashbridge_master_dataset.csv,outflow_rent,Rent
+cashbridge_master_dataset.csv,outflow_utilities,"Electricity, water, internet"
+cashbridge_master_dataset.csv,outflow_gst_tax,GST remittance + advance tax
+cashbridge_master_dataset.csv,outflow_loan_emi,Existing loan EMI
+cashbridge_master_dataset.csv,outflow_other_opex_capex,Variable opex + equipment/capex
+cashbridge_master_dataset.csv,operating_outflow,Sum of operating outflows (excludes drawings)
+cashbridge_master_dataset.csv,outflow_owner_drawings,Monthly sweep of excess cash to owner
+cashbridge_master_dataset.csv,total_outflow,operating_outflow + drawings
+cashbridge_master_dataset.csv,net_cash_flow,total_inflow - total_outflow
+cashbridge_master_dataset.csv,closing_balance,Bank balance at end of week (negative = overdraft)
+cashbridge_master_dataset.csv,min_balance_in_week,Lowest end-of-day balance in the week
+cashbridge_master_dataset.csv,min_cash_buffer_inr,Minimum safe buffer (about 1-1.6 weeks of operating outflow)
+cashbridge_master_dataset.csv,is_cash_gap,1 if closing_balance < min_cash_buffer_inr
+cashbridge_master_dataset.csv,buffer_gap_amount_inr,"max(0, buffer - closing_balance)"
+cashbridge_master_dataset.csv,invoices_issued_count,Invoices raised this week
+cashbridge_master_dataset.csv,invoices_issued_value,Value of invoices raised (incl. GST)
+cashbridge_master_dataset.csv,open_invoice_count,Unpaid invoices at week end
+cashbridge_master_dataset.csv,open_receivables_value,Unpaid invoice value at week end
+cashbridge_master_dataset.csv,overdue_receivables_value,Unpaid and past due date
+cashbridge_master_dataset.csv,overdue_receivables_pct,Overdue / open receivables
+cashbridge_master_dataset.csv,dso_days,"Days sales outstanding (open AR / trailing 13w invoiced x 91, capped 365)"
+cashbridge_master_dataset.csv,avg_payment_delay_days_this_week,Avg days past due of invoices paid this week
+cashbridge_master_dataset.csv,rolling_avg_delay_days_8w,8-week rolling average of the above
+cashbridge_master_dataset.csv,top_customer_share_of_receivables,Concentration: largest debtor share of open AR
+cashbridge_master_dataset.csv,inflow_4w_avg,4-week avg operating inflow (cash burn analysis)
+cashbridge_master_dataset.csv,outflow_4w_avg,4-week avg operating outflow
+cashbridge_master_dataset.csv,net_burn_4w,outflow_4w_avg - inflow_4w_avg (positive = burning cash)
+cashbridge_master_dataset.csv,inflow_volatility_8w,Coefficient of variation of operating inflow over 8 weeks
+cashbridge_master_dataset.csv,cash_runway_weeks,closing_balance / outflow_4w_avg (0-52)
+cashbridge_master_dataset.csv,gap_next_4w,LABEL: any cash gap in the next 4 weeks (blank in last 4 weeks)
+cashbridge_master_dataset.csv,gap_next_13w,LABEL: any cash gap in the next 13 weeks (blank in last 13 weeks)
+cashbridge_master_dataset.csv,shortfall_next_13w_inr,LABEL: worst shortfall vs buffer in next 13 weeks
+cashbridge_master_dataset.csv,weeks_to_first_gap_13w,LABEL: weeks until first gap (blank = none within 13 weeks)
+msme_profiles.csv,msme_id,Business key
+msme_profiles.csv,business_name,Synthetic name
+msme_profiles.csv,sector,Industry
+msme_profiles.csv,size_class,Micro/Small/Medium
+msme_profiles.csv,state,State (Kaggle-weighted sample)
+msme_profiles.csv,district,District (Kaggle-weighted sample)
+msme_profiles.csv,annual_turnover_inr,Approx. annual turnover
+msme_profiles.csv,employees,Headcount
+msme_profiles.csv,vintage_years,Years in business
+msme_profiles.csv,accounting_software,Connector type
+msme_profiles.csv,gst_registered,GST registration
+msme_profiles.csv,has_existing_term_loan,Existing loan Yes/No
+msme_profiles.csv,monthly_emi_inr,Monthly EMI
+msme_profiles.csv,min_cash_buffer_inr,Minimum cash buffer
+msme_profiles.csv,opening_balance_inr,Balance on 2024-10-28
+msme_profiles.csv,avg_weekly_operating_outflow_inr,Average weekly operating outflow
+msme_profiles.csv,n_customers,Distinct customers
+msme_profiles.csv,top_customer_share,Largest customer share of billing
+msme_profiles.csv,preferred_language,Alert language
+msme_profiles.csv,alert_channel,WhatsApp / SMS / App
+msme_profiles.csv,district_total_msme_units,Registered MSMEs in district (Kaggle)
+msme_profiles.csv,cashbridge_credit_score,"Cash-flow credit score 300-900 (from gap frequency, runway, overdue AR, on-time rate, vintage)"
+msme_profiles.csv,risk_band,"A (750+), B (650-749), C (550-649), D (<550)"
+msme_profiles.csv,credit_limit_inr,Pre-approved bridge limit by band and turnover
+msme_profiles.csv,historical_on_time_payment_rate,Share of paid invoices settled within 15 days of due date
+msme_profiles.csv,demo_showcase,1 = demo business
+msme_profiles.csv,demo_persona,Story for the demo businesses
+invoices.csv,invoice_id,Invoice key
+invoices.csv,msme_id,Business key
+invoices.csv,customer_id,Customer key
+invoices.csv,customer_name,Synthetic customer name
+invoices.csv,customer_type,Large Corporate / Govt-PSU / Other MSME / Distributor-Dealer / Retail-Individual
+invoices.csv,invoice_date,Issue date
+invoices.csv,payment_terms_days,Credit period
+invoices.csv,due_date,invoice_date + terms
+invoices.csv,amount_excl_gst_inr,Taxable value
+invoices.csv,gst_amount_inr,GST
+invoices.csv,invoice_amount_inr,Total payable
+invoices.csv,status_at_snapshot,Paid / Open - Not yet due / Open - Overdue as of 2026-10-25
+invoices.csv,paid_date,Blank if open
+invoices.csv,delay_days,TARGET: paid_date - due_date (blank if open; negative = early)
+invoices.csv,is_late,1 if delay_days > 0
+invoices.csv,days_overdue_at_snapshot,For open invoices only
+invoices.csv,customer_prior_invoice_count,Earlier invoices to this customer
+invoices.csv,customer_prior_paid_count,Earlier invoices already paid by invoice_date
+invoices.csv,customer_avg_prior_delay_days,Leakage-safe feature: mean delay of earlier paid invoices
+invoices.csv,customer_prior_late_rate,Leakage-safe feature: share of earlier paid invoices that were late
+invoices.csv,invoice_month,Month of issue
+invoices.csv,issued_before_window,1 if issued before 2024-10-28 but still unpaid then
+bank_transactions.csv,txn_id,Transaction key
+bank_transactions.csv,msme_id,Business key
+bank_transactions.csv,txn_date,Date
+bank_transactions.csv,direction,Credit / Debit
+bank_transactions.csv,category,"Invoice receipt, Cash/UPI sales settlement, Supplier payment, Salaries, Rent, Utilities, GST payment, Advance tax, Loan EMI, Other operating expenses, Equipment / capex, Owner drawings, Owner infusion"
+bank_transactions.csv,counterparty,Payer / payee
+bank_transactions.csv,amount_inr,Amount
+bank_transactions.csv,payment_mode,UPI / NEFT / RTGS / IMPS / Cheque / NACH / Net banking
+bank_transactions.csv,linked_invoice_id,Set for invoice receipts
+bank_transactions.csv,day_end_balance_inr,Account balance at end of that day
+recurring_commitments.csv,msme_id,Business key
+recurring_commitments.csv,category,Known upcoming obligation
+recurring_commitments.csv,frequency,Weekly / Monthly / Quarterly
+recurring_commitments.csv,amount_inr,Expected amount
+recurring_commitments.csv,next_due_date,First due date after the 2026-10-25 snapshot (feeds the 13-week forecast)
+bridge_loan_offers.csv,offer_id,Offer key
+bridge_loan_offers.csv,msme_id,Business key
+bridge_loan_offers.csv,alert_date,When the gap alert would fire
+bridge_loan_offers.csv,gap_start_date,First week below buffer
+bridge_loan_offers.csv,alert_lead_weeks,Weeks of warning
+bridge_loan_offers.csv,gap_duration_weeks,Length of the gap
+bridge_loan_offers.csv,projected_shortfall_inr,Shortfall CashBridge would forecast (actual +/-10%)
+bridge_loan_offers.csv,actual_shortfall_inr,Realised shortfall vs buffer
+bridge_loan_offers.csv,forecast_confidence_pct,Simulated confidence of the alert
+bridge_loan_offers.csv,recommended_loan_inr,"Loan sized to ~110% of shortfall, rounded to Rs 5,000"
+bridge_loan_offers.csv,tenure_days,Loan tenure
+bridge_loan_offers.csv,apr_pct,Annual rate by risk band
+bridge_loan_offers.csv,processing_fee_pct,Fee
+bridge_loan_offers.csv,linked_invoice_id,Receivable earmarked for auto-repay
+bridge_loan_offers.csv,linked_invoice_amount_inr,Its amount
+bridge_loan_offers.csv,risk_band,Band at snapshot
+bridge_loan_offers.csv,credit_limit_inr,Limit at snapshot
+bridge_loan_offers.csv,decision,Approved / Declined
+bridge_loan_offers.csv,decline_reason,Reason if declined
+bridge_loan_offers.csv,accepted,1 if owner took the loan
+bridge_loan_offers.csv,repayment_status,Outcome for accepted loans
+bridge_loan_offers.csv,days_to_repay,Days until linked invoice was paid
+bridge_loan_offers.csv,interest_charged_inr,Interest
+bridge_loan_offers.csv,total_repayment_inr,Principal + interest
+district_msme_context.csv,state,Cleaned state name
+district_msme_context.csv,state_id,Kaggle state id
+district_msme_context.csv,district,Cleaned district name
+district_msme_context.csv,lgd_district_code,LGD district code
+district_msme_context.csv,micro_units,Micro units (Kaggle)
+district_msme_context.csv,small_units,Small units (Kaggle)
+district_msme_context.csv,medium_units,Medium units (Kaggle)
+district_msme_context.csv,total_units,Total units (Kaggle)
+district_msme_context.csv,micro_share_pct,Derived
+district_msme_context.csv,small_share_pct,Derived
+district_msme_context.csv,medium_share_pct,Derived
+district_msme_context.csv,state_msme_total,Derived
+district_msme_context.csv,district_rank_in_india,Derived rank by total units

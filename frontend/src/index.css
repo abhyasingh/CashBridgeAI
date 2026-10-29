@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --paper-bg: #F7F4EC;
+    --paper-card: #F0EAD9;
+    --paper-subtle: #E8E0CE;
+    --paper-ruled: #DCD2BD;
+    --ink-primary: #111A24;
+    --ink-muted: #526071;
+    --saffron: #D9651C;
+    --safe-teal: #1E6B5C;
+    --danger-brick: #B83227;
+  }
+
+  body {
+    background-color: var(--paper-bg);
+    color: var(--ink-primary);
+    font-family: 'Manrope', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Devanagari adjustments */
+  [lang="hi"] body, [lang="hi"] {
+    font-family: 'Noto Sans Devanagari', 'Manrope', sans-serif;
+    line-height: 1.65;
+  }
+}
+
+@layer utilities {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ledger-border {
+    border-color: #DCD2BD;
+  }
+
+  .ledger-shadow {
+    box-shadow: 0 1px 3px rgba(17, 26, 36, 0.05), inset 0 0 0 1px rgba(220, 210, 189, 0.7);
+  }
+
+  .paper-texture {
+    background-image: radial-gradient(#dcd2bd 0.75px, transparent 0.75px);
+    background-size: 16px 16px;
+  }
+
+  /* Ruled horizontal ledger paper background */
+  .ledger-ruled-bg {
+    background-color: #F7F4EC;
+    background-image: linear-gradient(0deg, #EBE3D3 1px, transparent 1px);
+    background-size: 100% 32px;
+  }
+
+  .stamp-tag {
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+  }
+}

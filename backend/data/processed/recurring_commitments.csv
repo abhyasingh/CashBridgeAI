@@ -1,0 +1,775 @@
+msme_id,category,frequency,amount_inr,next_due_date
+MSME0001,Salaries,Monthly,25080.0,2026-11-10
+MSME0001,Rent,Monthly,19879.0,2026-11-02
+MSME0001,Utilities,Monthly,11148.0,2026-11-12
+MSME0001,GST payment,Monthly,4845.0,2026-11-20
+MSME0001,Loan EMI,Monthly,22044.0,2026-11-10
+MSME0001,Supplier payments (avg weekly),Weekly,112472.0,2026-10-27
+MSME0001,Advance tax,Quarterly,11029.0,2026-12-15
+MSME0002,Salaries,Monthly,68967.0,2026-11-01
+MSME0002,Rent,Monthly,15886.0,2026-11-01
+MSME0002,Utilities,Monthly,16086.0,2026-11-12
+MSME0002,GST payment,Monthly,10510.0,2026-11-20
+MSME0002,Loan EMI,Monthly,13160.0,2026-11-05
+MSME0002,Supplier payments (avg weekly),Weekly,69655.0,2026-10-27
+MSME0002,Advance tax,Quarterly,9272.0,2026-12-15
+MSME0003,Salaries,Monthly,8473.0,2026-11-07
+MSME0003,Rent,Monthly,6963.0,2026-11-02
+MSME0003,Utilities,Monthly,3859.0,2026-11-12
+MSME0003,GST payment,Monthly,1720.0,2026-11-20
+MSME0003,Supplier payments (avg weekly),Weekly,37935.0,2026-10-29
+MSME0003,Advance tax,Quarterly,3993.0,2026-12-15
+MSME0004,Salaries,Monthly,1782943.0,2026-11-07
+MSME0004,Rent,Monthly,647518.0,2026-11-04
+MSME0004,Utilities,Monthly,488600.0,2026-11-12
+MSME0004,GST payment,Monthly,316612.0,2026-11-20
+MSME0004,Loan EMI,Monthly,635245.0,2026-11-15
+MSME0004,Supplier payments (avg weekly),Weekly,2732986.0,2026-10-27
+MSME0004,Advance tax,Quarterly,340703.0,2026-12-15
+MSME0005,Salaries,Monthly,854934.0,2026-11-07
+MSME0005,Rent,Monthly,218153.0,2026-11-05
+MSME0005,Utilities,Monthly,356665.0,2026-11-12
+MSME0005,GST payment,Monthly,724875.0,2026-11-20
+MSME0005,Supplier payments (avg weekly),Weekly,1389180.0,2026-10-30
+MSME0005,Advance tax,Quarterly,242486.0,2026-12-15
+MSME0006,Salaries,Monthly,11258.0,2026-11-01
+MSME0006,Rent,Monthly,13398.0,2026-11-02
+MSME0006,Utilities,Monthly,5022.0,2026-11-12
+MSME0006,GST payment,Monthly,2954.0,2026-11-20
+MSME0006,Supplier payments (avg weekly),Weekly,68229.0,2026-10-28
+MSME0006,Advance tax,Quarterly,6648.0,2026-12-15
+MSME0007,Salaries,Monthly,132374.0,2026-11-01
+MSME0007,Rent,Monthly,40388.0,2026-11-04
+MSME0007,Utilities,Monthly,33650.0,2026-11-12
+MSME0007,GST payment,Monthly,19215.0,2026-11-20
+MSME0007,Supplier payments (avg weekly),Weekly,278834.0,2026-10-30
+MSME0007,Advance tax,Quarterly,22712.0,2026-12-15
+MSME0008,Salaries,Monthly,28632.0,2026-11-01
+MSME0008,Rent,Monthly,20070.0,2026-11-02
+MSME0008,Utilities,Monthly,6698.0,2026-11-12
+MSME0008,GST payment,Monthly,14021.0,2026-11-20
+MSME0008,Supplier payments (avg weekly),Weekly,155584.0,2026-10-27
+MSME0008,Advance tax,Quarterly,15735.0,2026-12-15
+MSME0009,Salaries,Monthly,76961.0,2026-11-01
+MSME0009,Rent,Monthly,18394.0,2026-11-04
+MSME0009,Utilities,Monthly,19764.0,2026-11-12
+MSME0009,GST payment,Monthly,15754.0,2026-11-20
+MSME0009,Supplier payments (avg weekly),Weekly,133796.0,2026-10-29
+MSME0009,Advance tax,Quarterly,19121.0,2026-12-15
+MSME0010,Salaries,Monthly,18115.0,2026-11-01
+MSME0010,Rent,Monthly,10131.0,2026-11-01
+MSME0010,Utilities,Monthly,5322.0,2026-11-12
+MSME0010,GST payment,Monthly,5181.0,2026-11-20
+MSME0010,Supplier payments (avg weekly),Weekly,55325.0,2026-10-30
+MSME0010,Advance tax,Quarterly,6534.0,2026-12-15
+MSME0011,Salaries,Monthly,36372.0,2026-11-07
+MSME0011,Rent,Monthly,7629.0,2026-11-05
+MSME0011,Utilities,Monthly,6905.0,2026-11-12
+MSME0011,GST payment,Monthly,5157.0,2026-11-20
+MSME0011,Loan EMI,Monthly,10727.0,2026-11-05
+MSME0011,Supplier payments (avg weekly),Weekly,40297.0,2026-10-28
+MSME0011,Advance tax,Quarterly,6249.0,2026-12-15
+MSME0012,Salaries,Monthly,12703.0,2026-11-10
+MSME0012,Rent,Monthly,12454.0,2026-11-02
+MSME0012,Utilities,Monthly,8204.0,2026-11-12
+MSME0012,GST payment,Monthly,3868.0,2026-11-20
+MSME0012,Loan EMI,Monthly,16129.0,2026-11-10
+MSME0012,Supplier payments (avg weekly),Weekly,84111.0,2026-10-30
+MSME0012,Advance tax,Quarterly,8984.0,2026-12-15
+MSME0013,Salaries,Monthly,329678.0,2026-11-07
+MSME0013,Rent,Monthly,206703.0,2026-11-04
+MSME0013,Utilities,Monthly,81156.0,2026-11-12
+MSME0013,GST payment,Monthly,147952.0,2026-11-20
+MSME0013,Supplier payments (avg weekly),Weekly,1931704.0,2026-10-30
+MSME0013,Advance tax,Quarterly,151372.0,2026-12-15
+MSME0014,Salaries,Monthly,25142.0,2026-11-07
+MSME0014,Rent,Monthly,13654.0,2026-11-02
+MSME0014,Utilities,Monthly,4856.0,2026-11-12
+MSME0014,GST payment,Monthly,8085.0,2026-11-20
+MSME0014,Supplier payments (avg weekly),Weekly,81159.0,2026-10-27
+MSME0014,Advance tax,Quarterly,8934.0,2026-12-15
+MSME0015,Salaries,Monthly,1509925.0,2026-11-05
+MSME0015,Rent,Monthly,442675.0,2026-11-02
+MSME0015,Utilities,Monthly,510576.0,2026-11-12
+MSME0015,GST payment,Monthly,454848.0,2026-11-20
+MSME0015,Supplier payments (avg weekly),Weekly,3543002.0,2026-10-27
+MSME0015,Advance tax,Quarterly,568501.0,2026-12-15
+MSME0016,Salaries,Monthly,315543.0,2026-11-10
+MSME0016,Rent,Monthly,41242.0,2026-11-04
+MSME0016,Utilities,Monthly,8960.0,2026-11-12
+MSME0016,GST payment,Monthly,131201.0,2026-11-20
+MSME0016,Supplier payments (avg weekly),Weekly,12593.0,2026-10-29
+MSME0016,Advance tax,Quarterly,17647.0,2026-12-15
+MSME0017,Salaries,Monthly,34088.0,2026-11-01
+MSME0017,Rent,Monthly,21785.0,2026-11-04
+MSME0017,Utilities,Monthly,6409.0,2026-11-12
+MSME0017,GST payment,Monthly,13943.0,2026-11-20
+MSME0017,Loan EMI,Monthly,18810.0,2026-11-15
+MSME0017,Supplier payments (avg weekly),Weekly,176440.0,2026-10-29
+MSME0017,Advance tax,Quarterly,20113.0,2026-12-15
+MSME0018,Salaries,Monthly,26895.0,2026-11-10
+MSME0018,Rent,Monthly,30669.0,2026-11-05
+MSME0018,Utilities,Monthly,14954.0,2026-11-12
+MSME0018,GST payment,Monthly,8514.0,2026-11-20
+MSME0018,Supplier payments (avg weekly),Weekly,194832.0,2026-10-28
+MSME0018,Advance tax,Quarterly,19898.0,2026-12-15
+MSME0019,Salaries,Monthly,16294.0,2026-11-10
+MSME0019,Rent,Monthly,8848.0,2026-11-01
+MSME0019,Utilities,Monthly,2948.0,2026-11-12
+MSME0019,GST payment,Monthly,10102.0,2026-11-20
+MSME0019,Supplier payments (avg weekly),Weekly,99136.0,2026-10-28
+MSME0019,Advance tax,Quarterly,12810.0,2026-12-15
+MSME0020,Salaries,Monthly,693774.0,2026-11-07
+MSME0020,Rent,Monthly,185588.0,2026-11-03
+MSME0020,Utilities,Monthly,216153.0,2026-11-12
+MSME0020,GST payment,Monthly,158948.0,2026-11-20
+MSME0020,Supplier payments (avg weekly),Weekly,1373511.0,2026-10-29
+MSME0020,Advance tax,Quarterly,167414.0,2026-12-15
+MSME0021,Salaries,Monthly,77517.0,2026-11-07
+MSME0021,Rent,Monthly,18688.0,2026-11-01
+MSME0021,Utilities,Monthly,22933.0,2026-11-12
+MSME0021,GST payment,Monthly,62765.0,2026-11-20
+MSME0021,Loan EMI,Monthly,21645.0,2026-11-05
+MSME0021,Supplier payments (avg weekly),Weekly,168255.0,2026-10-27
+MSME0021,Advance tax,Quarterly,19819.0,2026-12-15
+MSME0022,Salaries,Monthly,53454.0,2026-11-05
+MSME0022,Rent,Monthly,9772.0,2026-11-04
+MSME0022,Utilities,Monthly,12631.0,2026-11-12
+MSME0022,GST payment,Monthly,7077.0,2026-11-20
+MSME0022,Supplier payments (avg weekly),Weekly,44841.0,2026-10-27
+MSME0022,Advance tax,Quarterly,7686.0,2026-12-15
+MSME0023,Salaries,Monthly,23445.0,2026-11-10
+MSME0023,Rent,Monthly,22855.0,2026-11-01
+MSME0023,Utilities,Monthly,13920.0,2026-11-12
+MSME0023,GST payment,Monthly,5031.0,2026-11-20
+MSME0023,Supplier payments (avg weekly),Weekly,114262.0,2026-10-29
+MSME0023,Advance tax,Quarterly,11411.0,2026-12-15
+MSME0024,Salaries,Monthly,6048491.0,2026-11-10
+MSME0024,Rent,Monthly,538266.0,2026-11-02
+MSME0024,Utilities,Monthly,189427.0,2026-11-12
+MSME0024,GST payment,Monthly,1929257.0,2026-11-20
+MSME0024,Loan EMI,Monthly,475122.0,2026-11-05
+MSME0024,Supplier payments (avg weekly),Weekly,624373.0,2026-10-27
+MSME0024,Advance tax,Quarterly,292380.0,2026-12-15
+MSME0025,Salaries,Monthly,3097375.0,2026-11-07
+MSME0025,Rent,Monthly,375532.0,2026-11-01
+MSME0025,Utilities,Monthly,95071.0,2026-11-12
+MSME0025,GST payment,Monthly,685656.0,2026-11-20
+MSME0025,Supplier payments (avg weekly),Weekly,207292.0,2026-10-28
+MSME0025,Advance tax,Quarterly,111105.0,2026-12-15
+MSME0026,Salaries,Monthly,41132.0,2026-11-05
+MSME0026,Rent,Monthly,9007.0,2026-11-04
+MSME0026,Utilities,Monthly,16638.0,2026-11-12
+MSME0026,GST payment,Monthly,17306.0,2026-11-20
+MSME0026,Loan EMI,Monthly,14207.0,2026-11-10
+MSME0026,Supplier payments (avg weekly),Weekly,44512.0,2026-10-30
+MSME0026,Advance tax,Quarterly,4801.0,2026-12-15
+MSME0027,Salaries,Monthly,5587324.0,2026-11-01
+MSME0027,Rent,Monthly,689818.0,2026-11-01
+MSME0027,Utilities,Monthly,167067.0,2026-11-12
+MSME0027,GST payment,Monthly,2012663.0,2026-11-20
+MSME0027,Supplier payments (avg weekly),Weekly,540032.0,2026-10-27
+MSME0027,Advance tax,Quarterly,283972.0,2026-12-15
+MSME0028,Salaries,Monthly,631475.0,2026-11-07
+MSME0028,Rent,Monthly,184940.0,2026-11-04
+MSME0028,Utilities,Monthly,213736.0,2026-11-12
+MSME0028,GST payment,Monthly,133688.0,2026-11-20
+MSME0028,Loan EMI,Monthly,238938.0,2026-11-15
+MSME0028,Supplier payments (avg weekly),Weekly,1148439.0,2026-10-27
+MSME0028,Advance tax,Quarterly,147923.0,2026-12-15
+MSME0029,Salaries,Monthly,1100805.0,2026-11-07
+MSME0029,Rent,Monthly,283142.0,2026-11-03
+MSME0029,Utilities,Monthly,402669.0,2026-11-12
+MSME0029,GST payment,Monthly,467230.0,2026-11-20
+MSME0029,Supplier payments (avg weekly),Weekly,1164824.0,2026-10-28
+MSME0029,Advance tax,Quarterly,148635.0,2026-12-15
+MSME0030,Salaries,Monthly,69561947.0,2026-11-10
+MSME0030,Rent,Monthly,6646037.0,2026-11-01
+MSME0030,Utilities,Monthly,1706879.0,2026-11-12
+MSME0030,GST payment,Monthly,28006526.0,2026-11-20
+MSME0030,Loan EMI,Monthly,5586856.0,2026-11-15
+MSME0030,Supplier payments (avg weekly),Weekly,7942051.0,2026-10-27
+MSME0030,Advance tax,Quarterly,3670813.0,2026-12-15
+MSME0031,Salaries,Monthly,1346447.0,2026-11-07
+MSME0031,Rent,Monthly,743842.0,2026-11-04
+MSME0031,Utilities,Monthly,249759.0,2026-11-12
+MSME0031,GST payment,Monthly,803209.0,2026-11-20
+MSME0031,Loan EMI,Monthly,1435738.0,2026-11-05
+MSME0031,Supplier payments (avg weekly),Weekly,10711253.0,2026-10-27
+MSME0031,Advance tax,Quarterly,1054577.0,2026-12-15
+MSME0032,Salaries,Monthly,28223.0,2026-11-05
+MSME0032,Rent,Monthly,7918.0,2026-11-03
+MSME0032,Utilities,Monthly,7296.0,2026-11-12
+MSME0032,GST payment,Monthly,3352.0,2026-11-20
+MSME0032,Loan EMI,Monthly,13518.0,2026-11-10
+MSME0032,Supplier payments (avg weekly),Weekly,37238.0,2026-10-30
+MSME0032,Advance tax,Quarterly,3952.0,2026-12-15
+MSME0033,Salaries,Monthly,53756.0,2026-11-07
+MSME0033,Rent,Monthly,12776.0,2026-11-01
+MSME0033,Utilities,Monthly,12401.0,2026-11-12
+MSME0033,GST payment,Monthly,9299.0,2026-11-20
+MSME0033,Supplier payments (avg weekly),Weekly,89629.0,2026-10-27
+MSME0033,Advance tax,Quarterly,9296.0,2026-12-15
+MSME0034,Salaries,Monthly,25180.0,2026-11-10
+MSME0034,Rent,Monthly,18770.0,2026-11-01
+MSME0034,Utilities,Monthly,5948.0,2026-11-12
+MSME0034,GST payment,Monthly,13342.0,2026-11-20
+MSME0034,Loan EMI,Monthly,15749.0,2026-11-10
+MSME0034,Supplier payments (avg weekly),Weekly,107630.0,2026-10-28
+MSME0034,Advance tax,Quarterly,15611.0,2026-12-15
+MSME0035,Salaries,Monthly,801363.0,2026-11-07
+MSME0035,Rent,Monthly,426571.0,2026-11-05
+MSME0035,Utilities,Monthly,124018.0,2026-11-12
+MSME0035,GST payment,Monthly,357067.0,2026-11-20
+MSME0035,Supplier payments (avg weekly),Weekly,4099834.0,2026-10-27
+MSME0035,Advance tax,Quarterly,379161.0,2026-12-15
+MSME0036,Salaries,Monthly,770368.0,2026-11-10
+MSME0036,Rent,Monthly,443004.0,2026-11-01
+MSME0036,Utilities,Monthly,186995.0,2026-11-12
+MSME0036,GST payment,Monthly,490147.0,2026-11-20
+MSME0036,Supplier payments (avg weekly),Weekly,5312255.0,2026-10-30
+MSME0036,Advance tax,Quarterly,585091.0,2026-12-15
+MSME0037,Salaries,Monthly,418816.0,2026-11-10
+MSME0037,Rent,Monthly,242811.0,2026-11-02
+MSME0037,Utilities,Monthly,90932.0,2026-11-12
+MSME0037,GST payment,Monthly,193931.0,2026-11-20
+MSME0037,Supplier payments (avg weekly),Weekly,2175126.0,2026-10-27
+MSME0037,Advance tax,Quarterly,258483.0,2026-12-15
+MSME0038,Salaries,Monthly,23616.0,2026-11-10
+MSME0038,Rent,Monthly,12122.0,2026-11-02
+MSME0038,Utilities,Monthly,4598.0,2026-11-12
+MSME0038,GST payment,Monthly,12468.0,2026-11-20
+MSME0038,Supplier payments (avg weekly),Weekly,143130.0,2026-10-30
+MSME0038,Advance tax,Quarterly,13929.0,2026-12-15
+MSME0039,Salaries,Monthly,118250.0,2026-11-10
+MSME0039,Rent,Monthly,25731.0,2026-11-04
+MSME0039,Utilities,Monthly,30368.0,2026-11-12
+MSME0039,GST payment,Monthly,117984.0,2026-11-20
+MSME0039,Loan EMI,Monthly,39612.0,2026-11-15
+MSME0039,Supplier payments (avg weekly),Weekly,375076.0,2026-10-29
+MSME0039,Advance tax,Quarterly,45661.0,2026-12-15
+MSME0040,Salaries,Monthly,886030.0,2026-11-05
+MSME0040,Rent,Monthly,233566.0,2026-11-03
+MSME0040,Utilities,Monthly,191240.0,2026-11-12
+MSME0040,GST payment,Monthly,626020.0,2026-11-20
+MSME0040,Loan EMI,Monthly,338939.0,2026-11-05
+MSME0040,Supplier payments (avg weekly),Weekly,1350216.0,2026-10-27
+MSME0040,Advance tax,Quarterly,238732.0,2026-12-15
+MSME0041,Salaries,Monthly,27519.0,2026-11-05
+MSME0041,Rent,Monthly,16807.0,2026-11-04
+MSME0041,Utilities,Monthly,6019.0,2026-11-12
+MSME0041,GST payment,Monthly,11494.0,2026-11-20
+MSME0041,Loan EMI,Monthly,19989.0,2026-11-10
+MSME0041,Supplier payments (avg weekly),Weekly,116351.0,2026-10-28
+MSME0041,Advance tax,Quarterly,12639.0,2026-12-15
+MSME0042,Salaries,Monthly,9903.0,2026-11-10
+MSME0042,Rent,Monthly,10321.0,2026-11-04
+MSME0042,Utilities,Monthly,5072.0,2026-11-12
+MSME0042,GST payment,Monthly,2441.0,2026-11-20
+MSME0042,Supplier payments (avg weekly),Weekly,55529.0,2026-10-29
+MSME0042,Advance tax,Quarterly,5621.0,2026-12-15
+MSME0043,Salaries,Monthly,17816.0,2026-11-10
+MSME0043,Rent,Monthly,12229.0,2026-11-03
+MSME0043,Utilities,Monthly,3392.0,2026-11-12
+MSME0043,GST payment,Monthly,6580.0,2026-11-20
+MSME0043,Supplier payments (avg weekly),Weekly,74044.0,2026-10-30
+MSME0043,Advance tax,Quarterly,7087.0,2026-12-15
+MSME0044,Salaries,Monthly,33931.0,2026-11-01
+MSME0044,Rent,Monthly,6090.0,2026-11-04
+MSME0044,Utilities,Monthly,8630.0,2026-11-12
+MSME0044,GST payment,Monthly,4136.0,2026-11-20
+MSME0044,Loan EMI,Monthly,6776.0,2026-11-15
+MSME0044,Supplier payments (avg weekly),Weekly,35677.0,2026-10-28
+MSME0044,Advance tax,Quarterly,4338.0,2026-12-15
+MSME0045,Salaries,Monthly,434064.0,2026-11-01
+MSME0045,Rent,Monthly,290120.0,2026-11-02
+MSME0045,Utilities,Monthly,80886.0,2026-11-12
+MSME0045,GST payment,Monthly,188339.0,2026-11-20
+MSME0045,Loan EMI,Monthly,213719.0,2026-11-10
+MSME0045,Supplier payments (avg weekly),Weekly,2212694.0,2026-10-30
+MSME0045,Advance tax,Quarterly,207675.0,2026-12-15
+MSME0046,Salaries,Monthly,2161495.0,2026-11-01
+MSME0046,Rent,Monthly,1274906.0,2026-11-01
+MSME0046,Utilities,Monthly,393114.0,2026-11-12
+MSME0046,GST payment,Monthly,1226265.0,2026-11-20
+MSME0046,Supplier payments (avg weekly),Weekly,13884083.0,2026-10-29
+MSME0046,Advance tax,Quarterly,1485836.0,2026-12-15
+MSME0047,Salaries,Monthly,16678.0,2026-11-07
+MSME0047,Rent,Monthly,10336.0,2026-11-01
+MSME0047,Utilities,Monthly,4049.0,2026-11-12
+MSME0047,GST payment,Monthly,5014.0,2026-11-20
+MSME0047,Supplier payments (avg weekly),Weekly,55808.0,2026-10-27
+MSME0047,Advance tax,Quarterly,5654.0,2026-12-15
+MSME0048,Salaries,Monthly,27782.0,2026-11-01
+MSME0048,Rent,Monthly,7181.0,2026-11-01
+MSME0048,Utilities,Monthly,8131.0,2026-11-12
+MSME0048,GST payment,Monthly,10500.0,2026-11-20
+MSME0048,Supplier payments (avg weekly),Weekly,15770.0,2026-10-27
+MSME0048,Advance tax,Quarterly,3383.0,2026-12-15
+MSME0049,Salaries,Monthly,34542.0,2026-11-10
+MSME0049,Rent,Monthly,20043.0,2026-11-01
+MSME0049,Utilities,Monthly,7539.0,2026-11-12
+MSME0049,GST payment,Monthly,15233.0,2026-11-20
+MSME0049,Supplier payments (avg weekly),Weekly,119270.0,2026-10-28
+MSME0049,Advance tax,Quarterly,20691.0,2026-12-15
+MSME0050,Salaries,Monthly,41528.0,2026-11-01
+MSME0050,Rent,Monthly,9796.0,2026-11-01
+MSME0050,Utilities,Monthly,10983.0,2026-11-12
+MSME0050,GST payment,Monthly,6423.0,2026-11-20
+MSME0050,Supplier payments (avg weekly),Weekly,51224.0,2026-10-28
+MSME0050,Advance tax,Quarterly,7560.0,2026-12-15
+MSME0051,Salaries,Monthly,955571.0,2026-11-05
+MSME0051,Rent,Monthly,514288.0,2026-11-04
+MSME0051,Utilities,Monthly,163473.0,2026-11-12
+MSME0051,GST payment,Monthly,488015.0,2026-11-20
+MSME0051,Supplier payments (avg weekly),Weekly,5123070.0,2026-10-27
+MSME0051,Advance tax,Quarterly,605468.0,2026-12-15
+MSME0052,Salaries,Monthly,16843.0,2026-11-05
+MSME0052,Rent,Monthly,5977.0,2026-11-05
+MSME0052,Utilities,Monthly,4654.0,2026-11-12
+MSME0052,GST payment,Monthly,3648.0,2026-11-20
+MSME0052,Loan EMI,Monthly,8368.0,2026-11-05
+MSME0052,Supplier payments (avg weekly),Weekly,23184.0,2026-10-27
+MSME0052,Advance tax,Quarterly,4455.0,2026-12-15
+MSME0053,Salaries,Monthly,44346.0,2026-11-01
+MSME0053,Rent,Monthly,29670.0,2026-11-05
+MSME0053,Utilities,Monthly,9590.0,2026-11-12
+MSME0053,GST payment,Monthly,24656.0,2026-11-20
+MSME0053,Loan EMI,Monthly,31284.0,2026-11-05
+MSME0053,Supplier payments (avg weekly),Weekly,157496.0,2026-10-30
+MSME0053,Advance tax,Quarterly,36006.0,2026-12-15
+MSME0054,Salaries,Monthly,1602190.0,2026-11-01
+MSME0054,Rent,Monthly,349472.0,2026-11-03
+MSME0054,Utilities,Monthly,323143.0,2026-11-12
+MSME0054,GST payment,Monthly,322822.0,2026-11-20
+MSME0054,Supplier payments (avg weekly),Weekly,2616141.0,2026-10-27
+MSME0054,Advance tax,Quarterly,331261.0,2026-12-15
+MSME0055,Salaries,Monthly,32254.0,2026-11-10
+MSME0055,Rent,Monthly,6821.0,2026-11-02
+MSME0055,Utilities,Monthly,7871.0,2026-11-12
+MSME0055,GST payment,Monthly,30652.0,2026-11-20
+MSME0055,Loan EMI,Monthly,7274.0,2026-11-15
+MSME0055,Supplier payments (avg weekly),Weekly,71132.0,2026-10-28
+MSME0055,Advance tax,Quarterly,9556.0,2026-12-15
+MSME0056,Salaries,Monthly,82664.0,2026-11-07
+MSME0056,Rent,Monthly,18906.0,2026-11-02
+MSME0056,Utilities,Monthly,16052.0,2026-11-12
+MSME0056,GST payment,Monthly,19034.0,2026-11-20
+MSME0056,Supplier payments (avg weekly),Weekly,132384.0,2026-10-27
+MSME0056,Advance tax,Quarterly,17645.0,2026-12-15
+MSME0057,Salaries,Monthly,107409.0,2026-11-05
+MSME0057,Rent,Monthly,23863.0,2026-11-05
+MSME0057,Utilities,Monthly,19268.0,2026-11-12
+MSME0057,GST payment,Monthly,15437.0,2026-11-20
+MSME0057,Loan EMI,Monthly,25510.0,2026-11-10
+MSME0057,Supplier payments (avg weekly),Weekly,100354.0,2026-10-28
+MSME0057,Advance tax,Quarterly,17614.0,2026-12-15
+MSME0058,Salaries,Monthly,29928723.0,2026-11-05
+MSME0058,Rent,Monthly,3696271.0,2026-11-03
+MSME0058,Utilities,Monthly,1011249.0,2026-11-12
+MSME0058,GST payment,Monthly,9175115.0,2026-11-20
+MSME0058,Loan EMI,Monthly,1844397.0,2026-11-05
+MSME0058,Supplier payments (avg weekly),Weekly,2754903.0,2026-10-27
+MSME0058,Advance tax,Quarterly,1296120.0,2026-12-15
+MSME0059,Salaries,Monthly,251314.0,2026-11-01
+MSME0059,Rent,Monthly,27974.0,2026-11-05
+MSME0059,Utilities,Monthly,6890.0,2026-11-12
+MSME0059,GST payment,Monthly,90475.0,2026-11-20
+MSME0059,Supplier payments (avg weekly),Weekly,24397.0,2026-10-27
+MSME0059,Advance tax,Quarterly,12991.0,2026-12-15
+MSME0060,Salaries,Monthly,9175.0,2026-11-01
+MSME0060,Rent,Monthly,10747.0,2026-11-02
+MSME0060,Utilities,Monthly,4224.0,2026-11-12
+MSME0060,GST payment,Monthly,2830.0,2026-11-20
+MSME0060,Loan EMI,Monthly,11345.0,2026-11-15
+MSME0060,Supplier payments (avg weekly),Weekly,63410.0,2026-10-29
+MSME0060,Advance tax,Quarterly,6187.0,2026-12-15
+MSME0061,Salaries,Monthly,2788304.0,2026-11-01
+MSME0061,Rent,Monthly,350799.0,2026-11-01
+MSME0061,Utilities,Monthly,69349.0,2026-11-12
+MSME0061,GST payment,Monthly,606433.0,2026-11-20
+MSME0061,Supplier payments (avg weekly),Weekly,178650.0,2026-10-27
+MSME0061,Advance tax,Quarterly,95195.0,2026-12-15
+MSME0062,Salaries,Monthly,1283563.0,2026-11-07
+MSME0062,Rent,Monthly,353820.0,2026-11-02
+MSME0062,Utilities,Monthly,248237.0,2026-11-12
+MSME0062,GST payment,Monthly,265112.0,2026-11-20
+MSME0062,Loan EMI,Monthly,227769.0,2026-11-15
+MSME0062,Supplier payments (avg weekly),Weekly,2428807.0,2026-10-30
+MSME0062,Advance tax,Quarterly,310198.0,2026-12-15
+MSME0063,Salaries,Monthly,8346.0,2026-11-07
+MSME0063,Rent,Monthly,6707.0,2026-11-03
+MSME0063,Utilities,Monthly,4769.0,2026-11-12
+MSME0063,GST payment,Monthly,2702.0,2026-11-20
+MSME0063,Loan EMI,Monthly,7645.0,2026-11-10
+MSME0063,Supplier payments (avg weekly),Weekly,55978.0,2026-10-28
+MSME0063,Advance tax,Quarterly,6299.0,2026-12-15
+MSME0064,Salaries,Monthly,803755.0,2026-11-07
+MSME0064,Rent,Monthly,624588.0,2026-11-02
+MSME0064,Utilities,Monthly,182495.0,2026-11-12
+MSME0064,GST payment,Monthly,272244.0,2026-11-20
+MSME0064,Loan EMI,Monthly,625048.0,2026-11-05
+MSME0064,Supplier payments (avg weekly),Weekly,3485875.0,2026-10-30
+MSME0064,Advance tax,Quarterly,292845.0,2026-12-15
+MSME0065,Salaries,Monthly,134998.0,2026-11-07
+MSME0065,Rent,Monthly,33358.0,2026-11-02
+MSME0065,Utilities,Monthly,39427.0,2026-11-12
+MSME0065,GST payment,Monthly,124997.0,2026-11-20
+MSME0065,Supplier payments (avg weekly),Weekly,291419.0,2026-10-28
+MSME0065,Advance tax,Quarterly,47877.0,2026-12-15
+MSME0066,Salaries,Monthly,10571895.0,2026-11-10
+MSME0066,Rent,Monthly,1041814.0,2026-11-03
+MSME0066,Utilities,Monthly,319447.0,2026-11-12
+MSME0066,GST payment,Monthly,2970960.0,2026-11-20
+MSME0066,Supplier payments (avg weekly),Weekly,738578.0,2026-10-28
+MSME0066,Advance tax,Quarterly,399577.0,2026-12-15
+MSME0067,Salaries,Monthly,45521.0,2026-11-01
+MSME0067,Rent,Monthly,9565.0,2026-11-05
+MSME0067,Utilities,Monthly,14820.0,2026-11-12
+MSME0067,GST payment,Monthly,38447.0,2026-11-20
+MSME0067,Supplier payments (avg weekly),Weekly,60977.0,2026-10-28
+MSME0067,Advance tax,Quarterly,6573.0,2026-12-15
+MSME0068,Salaries,Monthly,99453.0,2026-11-10
+MSME0068,Rent,Monthly,21733.0,2026-11-02
+MSME0068,Utilities,Monthly,20092.0,2026-11-12
+MSME0068,GST payment,Monthly,42211.0,2026-11-20
+MSME0068,Supplier payments (avg weekly),Weekly,98496.0,2026-10-30
+MSME0068,Advance tax,Quarterly,9486.0,2026-12-15
+MSME0069,Salaries,Monthly,46927.0,2026-11-10
+MSME0069,Rent,Monthly,11156.0,2026-11-02
+MSME0069,Utilities,Monthly,15909.0,2026-11-12
+MSME0069,GST payment,Monthly,40960.0,2026-11-20
+MSME0069,Loan EMI,Monthly,23712.0,2026-11-05
+MSME0069,Supplier payments (avg weekly),Weekly,135008.0,2026-10-30
+MSME0069,Advance tax,Quarterly,11988.0,2026-12-15
+MSME0070,Salaries,Monthly,33059.0,2026-11-05
+MSME0070,Rent,Monthly,11777.0,2026-11-04
+MSME0070,Utilities,Monthly,8452.0,2026-11-12
+MSME0070,GST payment,Monthly,7101.0,2026-11-20
+MSME0070,Loan EMI,Monthly,11567.0,2026-11-10
+MSME0070,Supplier payments (avg weekly),Weekly,59402.0,2026-10-28
+MSME0070,Advance tax,Quarterly,7023.0,2026-12-15
+MSME0071,Salaries,Monthly,258445.0,2026-11-10
+MSME0071,Rent,Monthly,28608.0,2026-11-01
+MSME0071,Utilities,Monthly,7542.0,2026-11-12
+MSME0071,GST payment,Monthly,90393.0,2026-11-20
+MSME0071,Supplier payments (avg weekly),Weekly,23914.0,2026-10-29
+MSME0071,Advance tax,Quarterly,15513.0,2026-12-15
+MSME0072,Salaries,Monthly,11299609.0,2026-11-07
+MSME0072,Rent,Monthly,2270529.0,2026-11-04
+MSME0072,Utilities,Monthly,2561165.0,2026-11-12
+MSME0072,GST payment,Monthly,6531416.0,2026-11-20
+MSME0072,Supplier payments (avg weekly),Weekly,13017439.0,2026-10-28
+MSME0072,Advance tax,Quarterly,2311551.0,2026-12-15
+MSME0073,Salaries,Monthly,4709689.0,2026-11-07
+MSME0073,Rent,Monthly,737688.0,2026-11-02
+MSME0073,Utilities,Monthly,1372815.0,2026-11-12
+MSME0073,GST payment,Monthly,2711775.0,2026-11-20
+MSME0073,Loan EMI,Monthly,1753533.0,2026-11-05
+MSME0073,Supplier payments (avg weekly),Weekly,7038429.0,2026-10-28
+MSME0073,Advance tax,Quarterly,662433.0,2026-12-15
+MSME0074,Salaries,Monthly,58252.0,2026-11-05
+MSME0074,Rent,Monthly,15124.0,2026-11-02
+MSME0074,Utilities,Monthly,17782.0,2026-11-12
+MSME0074,GST payment,Monthly,47259.0,2026-11-20
+MSME0074,Loan EMI,Monthly,15215.0,2026-11-05
+MSME0074,Supplier payments (avg weekly),Weekly,135326.0,2026-10-30
+MSME0074,Advance tax,Quarterly,13773.0,2026-12-15
+MSME0075,Salaries,Monthly,65743.0,2026-11-01
+MSME0075,Rent,Monthly,13598.0,2026-11-03
+MSME0075,Utilities,Monthly,13840.0,2026-11-12
+MSME0075,GST payment,Monthly,10241.0,2026-11-20
+MSME0075,Loan EMI,Monthly,17705.0,2026-11-10
+MSME0075,Supplier payments (avg weekly),Weekly,89875.0,2026-10-28
+MSME0075,Advance tax,Quarterly,11143.0,2026-12-15
+MSME0076,Salaries,Monthly,4823568.0,2026-11-10
+MSME0076,Rent,Monthly,445324.0,2026-11-01
+MSME0076,Utilities,Monthly,142685.0,2026-11-12
+MSME0076,GST payment,Monthly,975709.0,2026-11-20
+MSME0076,Loan EMI,Monthly,263388.0,2026-11-10
+MSME0076,Supplier payments (avg weekly),Weekly,224933.0,2026-10-28
+MSME0076,Advance tax,Quarterly,102880.0,2026-12-15
+MSME0077,Salaries,Monthly,349956.0,2026-11-10
+MSME0077,Rent,Monthly,34013.0,2026-11-04
+MSME0077,Utilities,Monthly,9786.0,2026-11-12
+MSME0077,GST payment,Monthly,183646.0,2026-11-20
+MSME0077,Supplier payments (avg weekly),Weekly,19854.0,2026-10-30
+MSME0077,Advance tax,Quarterly,33754.0,2026-12-15
+MSME0078,Salaries,Monthly,102960.0,2026-11-01
+MSME0078,Rent,Monthly,25407.0,2026-11-01
+MSME0078,Utilities,Monthly,23371.0,2026-11-12
+MSME0078,GST payment,Monthly,68593.0,2026-11-20
+MSME0078,Loan EMI,Monthly,37259.0,2026-11-15
+MSME0078,Supplier payments (avg weekly),Weekly,234436.0,2026-10-30
+MSME0078,Advance tax,Quarterly,21583.0,2026-12-15
+MSME0079,Salaries,Monthly,62683.0,2026-11-05
+MSME0079,Rent,Monthly,18455.0,2026-11-04
+MSME0079,Utilities,Monthly,17091.0,2026-11-12
+MSME0079,GST payment,Monthly,9732.0,2026-11-20
+MSME0079,Supplier payments (avg weekly),Weekly,58074.0,2026-10-28
+MSME0079,Advance tax,Quarterly,10614.0,2026-12-15
+MSME0080,Salaries,Monthly,76060.0,2026-11-07
+MSME0080,Rent,Monthly,19022.0,2026-11-02
+MSME0080,Utilities,Monthly,27228.0,2026-11-12
+MSME0080,GST payment,Monthly,85609.0,2026-11-20
+MSME0080,Supplier payments (avg weekly),Weekly,164857.0,2026-10-29
+MSME0080,Advance tax,Quarterly,16954.0,2026-12-15
+MSME0081,Salaries,Monthly,13407070.0,2026-11-05
+MSME0081,Rent,Monthly,2639171.0,2026-11-03
+MSME0081,Utilities,Monthly,2906807.0,2026-11-12
+MSME0081,GST payment,Monthly,2065756.0,2026-11-20
+MSME0081,Loan EMI,Monthly,2725935.0,2026-11-10
+MSME0081,Supplier payments (avg weekly),Weekly,16409284.0,2026-10-28
+MSME0081,Advance tax,Quarterly,2408424.0,2026-12-15
+MSME0082,Salaries,Monthly,26276.0,2026-11-07
+MSME0082,Rent,Monthly,8202.0,2026-11-02
+MSME0082,Utilities,Monthly,8259.0,2026-11-12
+MSME0082,GST payment,Monthly,6229.0,2026-11-20
+MSME0082,Loan EMI,Monthly,10198.0,2026-11-10
+MSME0082,Supplier payments (avg weekly),Weekly,36934.0,2026-10-29
+MSME0082,Advance tax,Quarterly,8408.0,2026-12-15
+MSME0083,Salaries,Monthly,31617.0,2026-11-05
+MSME0083,Rent,Monthly,19189.0,2026-11-01
+MSME0083,Utilities,Monthly,7765.0,2026-11-12
+MSME0083,GST payment,Monthly,11853.0,2026-11-20
+MSME0083,Loan EMI,Monthly,22703.0,2026-11-15
+MSME0083,Supplier payments (avg weekly),Weekly,118308.0,2026-10-30
+MSME0083,Advance tax,Quarterly,12274.0,2026-12-15
+MSME0084,Salaries,Monthly,693536.0,2026-11-01
+MSME0084,Rent,Monthly,192924.0,2026-11-05
+MSME0084,Utilities,Monthly,204535.0,2026-11-12
+MSME0084,GST payment,Monthly,123970.0,2026-11-20
+MSME0084,Loan EMI,Monthly,346481.0,2026-11-10
+MSME0084,Supplier payments (avg weekly),Weekly,907434.0,2026-10-28
+MSME0084,Advance tax,Quarterly,150584.0,2026-12-15
+MSME0085,Salaries,Monthly,47930.0,2026-11-07
+MSME0085,Rent,Monthly,25965.0,2026-11-03
+MSME0085,Utilities,Monthly,10737.0,2026-11-12
+MSME0085,GST payment,Monthly,20523.0,2026-11-20
+MSME0085,Supplier payments (avg weekly),Weekly,276138.0,2026-10-27
+MSME0085,Advance tax,Quarterly,21614.0,2026-12-15
+MSME0086,Salaries,Monthly,4985842.0,2026-11-01
+MSME0086,Rent,Monthly,1902609.0,2026-11-03
+MSME0086,Utilities,Monthly,1722564.0,2026-11-12
+MSME0086,GST payment,Monthly,1034392.0,2026-11-20
+MSME0086,Supplier payments (avg weekly),Weekly,8503524.0,2026-10-27
+MSME0086,Advance tax,Quarterly,1134946.0,2026-12-15
+MSME0087,Salaries,Monthly,42185.0,2026-11-07
+MSME0087,Rent,Monthly,14201.0,2026-11-03
+MSME0087,Utilities,Monthly,13846.0,2026-11-12
+MSME0087,GST payment,Monthly,5368.0,2026-11-20
+MSME0087,Supplier payments (avg weekly),Weekly,66562.0,2026-10-29
+MSME0087,Advance tax,Quarterly,5825.0,2026-12-15
+MSME0088,Salaries,Monthly,97071.0,2026-11-07
+MSME0088,Rent,Monthly,37024.0,2026-11-05
+MSME0088,Utilities,Monthly,29838.0,2026-11-12
+MSME0088,GST payment,Monthly,26901.0,2026-11-20
+MSME0088,Loan EMI,Monthly,22039.0,2026-11-10
+MSME0088,Supplier payments (avg weekly),Weekly,243590.0,2026-10-30
+MSME0088,Advance tax,Quarterly,31951.0,2026-12-15
+MSME0089,Salaries,Monthly,390909.0,2026-11-10
+MSME0089,Rent,Monthly,275462.0,2026-11-05
+MSME0089,Utilities,Monthly,85806.0,2026-11-12
+MSME0089,GST payment,Monthly,176771.0,2026-11-20
+MSME0089,Supplier payments (avg weekly),Weekly,2123805.0,2026-10-28
+MSME0089,Advance tax,Quarterly,203825.0,2026-12-15
+MSME0090,Salaries,Monthly,57655.0,2026-11-01
+MSME0090,Rent,Monthly,5380.0,2026-11-03
+MSME0090,Utilities,Monthly,1577.0,2026-11-12
+MSME0090,GST payment,Monthly,17576.0,2026-11-20
+MSME0090,Loan EMI,Monthly,3810.0,2026-11-15
+MSME0090,Supplier payments (avg weekly),Weekly,5069.0,2026-10-28
+MSME0090,Advance tax,Quarterly,2629.0,2026-12-15
+MSME0091,Salaries,Monthly,19449.0,2026-11-07
+MSME0091,Rent,Monthly,11492.0,2026-11-01
+MSME0091,Utilities,Monthly,3858.0,2026-11-12
+MSME0091,GST payment,Monthly,9119.0,2026-11-20
+MSME0091,Supplier payments (avg weekly),Weekly,70626.0,2026-10-30
+MSME0091,Advance tax,Quarterly,9544.0,2026-12-15
+MSME0092,Salaries,Monthly,25708.0,2026-11-10
+MSME0092,Rent,Monthly,5350.0,2026-11-05
+MSME0092,Utilities,Monthly,5464.0,2026-11-12
+MSME0092,GST payment,Monthly,3135.0,2026-11-20
+MSME0092,Supplier payments (avg weekly),Weekly,19927.0,2026-10-30
+MSME0092,Advance tax,Quarterly,4281.0,2026-12-15
+MSME0093,Salaries,Monthly,104207.0,2026-11-07
+MSME0093,Rent,Monthly,31787.0,2026-11-03
+MSME0093,Utilities,Monthly,29306.0,2026-11-12
+MSME0093,GST payment,Monthly,21682.0,2026-11-20
+MSME0093,Loan EMI,Monthly,29671.0,2026-11-10
+MSME0093,Supplier payments (avg weekly),Weekly,221837.0,2026-10-29
+MSME0093,Advance tax,Quarterly,23458.0,2026-12-15
+MSME0094,Salaries,Monthly,80677.0,2026-11-01
+MSME0094,Rent,Monthly,17603.0,2026-11-05
+MSME0094,Utilities,Monthly,22489.0,2026-11-12
+MSME0094,GST payment,Monthly,26574.0,2026-11-20
+MSME0094,Supplier payments (avg weekly),Weekly,67795.0,2026-10-29
+MSME0094,Advance tax,Quarterly,8111.0,2026-12-15
+MSME0095,Salaries,Monthly,41362.0,2026-11-05
+MSME0095,Rent,Monthly,11387.0,2026-11-02
+MSME0095,Utilities,Monthly,9234.0,2026-11-12
+MSME0095,GST payment,Monthly,32655.0,2026-11-20
+MSME0095,Loan EMI,Monthly,16298.0,2026-11-15
+MSME0095,Supplier payments (avg weekly),Weekly,58026.0,2026-10-28
+MSME0095,Advance tax,Quarterly,11351.0,2026-12-15
+MSME0096,Salaries,Monthly,127486.0,2026-11-01
+MSME0096,Rent,Monthly,21910.0,2026-11-03
+MSME0096,Utilities,Monthly,22415.0,2026-11-12
+MSME0096,GST payment,Monthly,23099.0,2026-11-20
+MSME0096,Loan EMI,Monthly,18676.0,2026-11-15
+MSME0096,Supplier payments (avg weekly),Weekly,224495.0,2026-10-29
+MSME0096,Advance tax,Quarterly,28418.0,2026-12-15
+MSME0097,Salaries,Monthly,61688.0,2026-11-05
+MSME0097,Rent,Monthly,42409.0,2026-11-01
+MSME0097,Utilities,Monthly,12817.0,2026-11-12
+MSME0097,GST payment,Monthly,20279.0,2026-11-20
+MSME0097,Supplier payments (avg weekly),Weekly,207025.0,2026-10-27
+MSME0097,Advance tax,Quarterly,27555.0,2026-12-15
+MSME0098,Salaries,Monthly,131199.0,2026-11-10
+MSME0098,Rent,Monthly,12119.0,2026-11-05
+MSME0098,Utilities,Monthly,3419.0,2026-11-12
+MSME0098,GST payment,Monthly,42272.0,2026-11-20
+MSME0098,Loan EMI,Monthly,7977.0,2026-11-05
+MSME0098,Supplier payments (avg weekly),Weekly,16869.0,2026-10-28
+MSME0098,Advance tax,Quarterly,7500.0,2026-12-15
+MSME0099,Salaries,Monthly,17756.0,2026-11-07
+MSME0099,Rent,Monthly,16981.0,2026-11-03
+MSME0099,Utilities,Monthly,9449.0,2026-11-12
+MSME0099,GST payment,Monthly,4773.0,2026-11-20
+MSME0099,Supplier payments (avg weekly),Weekly,103879.0,2026-10-30
+MSME0099,Advance tax,Quarterly,10881.0,2026-12-15
+MSME0100,Salaries,Monthly,32641.0,2026-11-05
+MSME0100,Rent,Monthly,24118.0,2026-11-02
+MSME0100,Utilities,Monthly,7236.0,2026-11-12
+MSME0100,GST payment,Monthly,14604.0,2026-11-20
+MSME0100,Supplier payments (avg weekly),Weekly,127169.0,2026-10-28
+MSME0100,Advance tax,Quarterly,16104.0,2026-12-15
+MSME0101,Salaries,Monthly,303999.0,2026-11-07
+MSME0101,Rent,Monthly,179676.0,2026-11-05
+MSME0101,Utilities,Monthly,68696.0,2026-11-12
+MSME0101,GST payment,Monthly,170750.0,2026-11-20
+MSME0101,Loan EMI,Monthly,304584.0,2026-11-15
+MSME0101,Supplier payments (avg weekly),Weekly,2592248.0,2026-10-27
+MSME0101,Advance tax,Quarterly,205615.0,2026-12-15
+MSME0102,Salaries,Monthly,199493.0,2026-11-07
+MSME0102,Rent,Monthly,47494.0,2026-11-04
+MSME0102,Utilities,Monthly,76939.0,2026-11-12
+MSME0102,GST payment,Monthly,144610.0,2026-11-20
+MSME0102,Supplier payments (avg weekly),Weekly,312592.0,2026-10-27
+MSME0102,Advance tax,Quarterly,43183.0,2026-12-15
+MSME0103,Salaries,Monthly,7019874.0,2026-11-07
+MSME0103,Rent,Monthly,757646.0,2026-11-03
+MSME0103,Utilities,Monthly,177158.0,2026-11-12
+MSME0103,GST payment,Monthly,1770520.0,2026-11-20
+MSME0103,Supplier payments (avg weekly),Weekly,593961.0,2026-10-29
+MSME0103,Advance tax,Quarterly,287898.0,2026-12-15
+MSME0104,Salaries,Monthly,224680.0,2026-11-05
+MSME0104,Rent,Monthly,22741.0,2026-11-01
+MSME0104,Utilities,Monthly,5609.0,2026-11-12
+MSME0104,GST payment,Monthly,56212.0,2026-11-20
+MSME0104,Loan EMI,Monthly,10941.0,2026-11-15
+MSME0104,Supplier payments (avg weekly),Weekly,7858.0,2026-10-30
+MSME0104,Advance tax,Quarterly,7894.0,2026-12-15
+MSME0105,Salaries,Monthly,30385.0,2026-11-07
+MSME0105,Rent,Monthly,26211.0,2026-11-01
+MSME0105,Utilities,Monthly,15808.0,2026-11-12
+MSME0105,GST payment,Monthly,6519.0,2026-11-20
+MSME0105,Loan EMI,Monthly,22445.0,2026-11-15
+MSME0105,Supplier payments (avg weekly),Weekly,137684.0,2026-10-28
+MSME0105,Advance tax,Quarterly,15503.0,2026-12-15
+MSME0106,Salaries,Monthly,63080.0,2026-11-10
+MSME0106,Rent,Monthly,65955.0,2026-11-01
+MSME0106,Utilities,Monthly,26311.0,2026-11-12
+MSME0106,GST payment,Monthly,16893.0,2026-11-20
+MSME0106,Supplier payments (avg weekly),Weekly,405938.0,2026-10-30
+MSME0106,Advance tax,Quarterly,40590.0,2026-12-15
+MSME0107,Salaries,Monthly,6337469.0,2026-11-05
+MSME0107,Rent,Monthly,1878317.0,2026-11-02
+MSME0107,Utilities,Monthly,1718631.0,2026-11-12
+MSME0107,GST payment,Monthly,3898949.0,2026-11-20
+MSME0107,Supplier payments (avg weekly),Weekly,7952632.0,2026-10-29
+MSME0107,Advance tax,Quarterly,1173964.0,2026-12-15
+MSME0108,Salaries,Monthly,64172.0,2026-11-07
+MSME0108,Rent,Monthly,14490.0,2026-11-05
+MSME0108,Utilities,Monthly,19353.0,2026-11-12
+MSME0108,GST payment,Monthly,13917.0,2026-11-20
+MSME0108,Supplier payments (avg weekly),Weekly,182747.0,2026-10-28
+MSME0108,Advance tax,Quarterly,14257.0,2026-12-15
+MSME0109,Salaries,Monthly,628064.0,2026-11-01
+MSME0109,Rent,Monthly,157228.0,2026-11-04
+MSME0109,Utilities,Monthly,163825.0,2026-11-12
+MSME0109,GST payment,Monthly,150151.0,2026-11-20
+MSME0109,Supplier payments (avg weekly),Weekly,1218055.0,2026-10-28
+MSME0109,Advance tax,Quarterly,202859.0,2026-12-15
+MSME0110,Salaries,Monthly,56361.0,2026-11-07
+MSME0110,Rent,Monthly,17912.0,2026-11-01
+MSME0110,Utilities,Monthly,21672.0,2026-11-12
+MSME0110,GST payment,Monthly,20089.0,2026-11-20
+MSME0110,Supplier payments (avg weekly),Weekly,186676.0,2026-10-27
+MSME0110,Advance tax,Quarterly,21500.0,2026-12-15
+MSME0111,Salaries,Monthly,53922.0,2026-11-07
+MSME0111,Rent,Monthly,28656.0,2026-11-03
+MSME0111,Utilities,Monthly,12134.0,2026-11-12
+MSME0111,GST payment,Monthly,31719.0,2026-11-20
+MSME0111,Loan EMI,Monthly,48537.0,2026-11-05
+MSME0111,Supplier payments (avg weekly),Weekly,400309.0,2026-10-30
+MSME0111,Advance tax,Quarterly,44100.0,2026-12-15
+MSME0112,Salaries,Monthly,157699.0,2026-11-07
+MSME0112,Rent,Monthly,28584.0,2026-11-04
+MSME0112,Utilities,Monthly,28400.0,2026-11-12
+MSME0112,GST payment,Monthly,21550.0,2026-11-20
+MSME0112,Supplier payments (avg weekly),Weekly,168014.0,2026-10-29
+MSME0112,Advance tax,Quarterly,21887.0,2026-12-15
+MSME0113,Salaries,Monthly,216833.0,2026-11-10
+MSME0113,Rent,Monthly,153085.0,2026-11-02
+MSME0113,Utilities,Monthly,45073.0,2026-11-12
+MSME0113,GST payment,Monthly,99856.0,2026-11-20
+MSME0113,Supplier payments (avg weekly),Weekly,939663.0,2026-10-27
+MSME0113,Advance tax,Quarterly,137947.0,2026-12-15
+MSME0114,Salaries,Monthly,46344.0,2026-11-10
+MSME0114,Rent,Monthly,39887.0,2026-11-03
+MSME0114,Utilities,Monthly,19022.0,2026-11-12
+MSME0114,GST payment,Monthly,12881.0,2026-11-20
+MSME0114,Loan EMI,Monthly,41742.0,2026-11-10
+MSME0114,Supplier payments (avg weekly),Weekly,318017.0,2026-10-28
+MSME0114,Advance tax,Quarterly,30565.0,2026-12-15
+MSME0115,Salaries,Monthly,75256.0,2026-11-01
+MSME0115,Rent,Monthly,27840.0,2026-11-05
+MSME0115,Utilities,Monthly,20891.0,2026-11-12
+MSME0115,GST payment,Monthly,18257.0,2026-11-20
+MSME0115,Loan EMI,Monthly,27828.0,2026-11-15
+MSME0115,Supplier payments (avg weekly),Weekly,153521.0,2026-10-28
+MSME0115,Advance tax,Quarterly,18504.0,2026-12-15
+MSME0116,Salaries,Monthly,1346982.0,2026-11-10
+MSME0116,Rent,Monthly,373874.0,2026-11-04
+MSME0116,Utilities,Monthly,302240.0,2026-11-12
+MSME0116,GST payment,Monthly,782098.0,2026-11-20
+MSME0116,Loan EMI,Monthly,341050.0,2026-11-05
+MSME0116,Supplier payments (avg weekly),Weekly,2336456.0,2026-10-29
+MSME0116,Advance tax,Quarterly,263905.0,2026-12-15
+MSME0117,Salaries,Monthly,91384.0,2026-11-10
+MSME0117,Rent,Monthly,23714.0,2026-11-05
+MSME0117,Utilities,Monthly,28553.0,2026-11-12
+MSME0117,GST payment,Monthly,15538.0,2026-11-20
+MSME0117,Loan EMI,Monthly,33841.0,2026-11-15
+MSME0117,Supplier payments (avg weekly),Weekly,87473.0,2026-10-29
+MSME0117,Advance tax,Quarterly,20615.0,2026-12-15
+MSME0118,Salaries,Monthly,901314.0,2026-11-01
+MSME0118,Rent,Monthly,628312.0,2026-11-02
+MSME0118,Utilities,Monthly,245934.0,2026-11-12
+MSME0118,GST payment,Monthly,236484.0,2026-11-20
+MSME0118,Supplier payments (avg weekly),Weekly,1873593.0,2026-10-27
+MSME0118,Advance tax,Quarterly,209832.0,2026-12-15
+MSME0119,Salaries,Monthly,228568.0,2026-11-07
+MSME0119,Rent,Monthly,20131.0,2026-11-01
+MSME0119,Utilities,Monthly,4839.0,2026-11-12
+MSME0119,GST payment,Monthly,91907.0,2026-11-20
+MSME0119,Supplier payments (avg weekly),Weekly,13750.0,2026-10-29
+MSME0119,Advance tax,Quarterly,11788.0,2026-12-15
+MSME0120,Salaries,Monthly,1633783.0,2026-11-05
+MSME0120,Rent,Monthly,363393.0,2026-11-02
+MSME0120,Utilities,Monthly,581487.0,2026-11-12
+MSME0120,GST payment,Monthly,813109.0,2026-11-20
+MSME0120,Loan EMI,Monthly,488474.0,2026-11-10
+MSME0120,Supplier payments (avg weekly),Weekly,1180184.0,2026-10-28
+MSME0120,Advance tax,Quarterly,230141.0,2026-12-15

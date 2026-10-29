@@ -1,0 +1,187 @@
+{
+  "brand": {
+    "name": "CashBridge AI",
+    "tagline": "Predictive Cash-Flow & Invoice-Linked Micro-Credit for Indian MSMEs",
+    "businessName": "Sharma Garments",
+    "location": "Lucknow, UP"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Cash Forecast",
+    "alert": "Shortfall Alert",
+    "receivables": "Invoices & Delays",
+    "loan": "1-Tap Bridge Loan",
+    "connect": "Connect Data",
+    "assistant": "Ask Khata AI"
+  },
+  "common": {
+    "day": "Day",
+    "week": "Week",
+    "days": "days",
+    "late": "late",
+    "onTime": "On Time",
+    "safe": "Safe",
+    "warning": "Warning",
+    "critical": "Critical",
+    "deficit": "Deficit",
+    "buffer": "Safe Buffer",
+    "balance": "Bank Balance",
+    "confidence": "Confidence",
+    "details": "View Details",
+    "action": "Action",
+    "status": "Status",
+    "close": "Close",
+    "simulated": "Simulation Mode",
+    "liveSync": "Live Sync Active",
+    "rbiCompliant": "RBI Digital Lending Norms Aligned"
+  },
+  "home": {
+    "badge": "Built for Indian MSME Wholesalers & Manufacturers",
+    "headline": "Know your cash gap before it knows you.",
+    "subheadline": "CashBridge AI predicts customer invoice delays weeks ahead and bridges cash shortfalls with a single tap — settled automatically the moment your buyer pays.",
+    "ctaForecast": "See my cash forecast",
+    "ctaHow": "How it works",
+    "trustedBy": "Designed for shop owners and manufacturing units running on Tally, QuickBooks & GST.",
+    "tickerTitle": "Live MSME Risk Signals",
+    "animation": {
+      "bufferLine": "Minimum Operating Buffer: ₹2,50,000",
+      "deficitHatch": "Day 18 Shortfall Zone: ₹2,10,000 Deficit",
+      "alertTag": "Day 18 Deficit: ₹2.1L (82% prob.)",
+      "bridgeArc": "CashBridge Loan: ₹2.3L for 21 Days",
+      "repaymentStamp": "LIQUIDITY SECURED",
+      "p90Label": "P90 (Best case)",
+      "p50Label": "P50 (Predicted baseline)",
+      "p10Label": "P10 (Stress case)"
+    },
+    "howItWorks": {
+      "title": "From Unpaid Bills to Guaranteed Payroll in 5 Steps",
+      "subtitle": "No complex collateral. No branch visits. Just a clear bridge over your cash gaps.",
+      "step1Title": "1. Connect",
+      "step1Desc": "Link your Tally, QuickBooks or Bank Statement via Account Aggregator in 60 seconds.",
+      "step2Title": "2. Predict",
+      "step2Desc": "Our AI analyzes 12 months of customer payment habits to forecast actual pay dates.",
+      "step3Title": "3. Alert",
+      "step3Desc": "Get notified 18–30 days before a shortfall hits your payroll or vendor checks.",
+      "step4Title": "4. Bridge",
+      "step4Desc": "Tap once to unlock an invoice-backed micro-loan directly into your current account.",
+      "step5Title": "5. Auto-Repay",
+      "step5Desc": "When your delayed customer settles their bill, the loan clears automatically."
+    },
+    "trust": {
+      "title": "Built on Trust, Consent & Indian Banking Norms",
+      "pillar1Title": "100% Explainable AI",
+      "pillar1Desc": "Every forecast shows the exact 'Why?' — which customer delayed, which GST or wage outflow is due.",
+      "pillar2Title": "RBI-Regulated Partners",
+      "pillar2Desc": "Loans are disbursed by licensed Small Finance Banks and NBFCs with standardized Key Facts Statements.",
+      "pillar3Title": "Account Aggregator Consent",
+      "pillar3Desc": "Read-only access via RBI Account Aggregator framework. Your data is encrypted and never sold."
+    }
+  },
+  "dashboard": {
+    "runwayHero": "Safe cash runway for the next 18 days",
+    "runwaySubtitle": "A ₹2.1L cash gap is projected on Day 18 (17 Nov) due to delayed receivables.",
+    "bridgeCta": "Bridge this ₹2.1L gap now",
+    "kpi": {
+      "currentBalance": "Current Bank Balance",
+      "inflow7Days": "Expected Inflow (7 Days)",
+      "outflow15Days": "Outflows Due (15 Days)",
+      "riskStatus": "Cash Gap Risk Tier"
+    },
+    "chart": {
+      "title": "13-Week Probabilistic Cash Runway (P10 / P50 / P90)",
+      "subtitle": "Shaded band indicates 80% confidence interval. Shaded brick area indicates cash shortfall below ₹2.5L buffer.",
+      "legendP50": "P50 Expected Cash Balance",
+      "legendBuffer": "Minimum Safe Buffer (₹2.5L)",
+      "legendDeficit": "Deficit Zone",
+      "legendRange": "P10–P90 Confidence Band"
+    }
+  },
+  "alert": {
+    "title": "Cash Shortfall Deep Dive: Day 18",
+    "subtitle": "Explainable AI breakdown of why your balance dips below safe operational levels.",
+    "shortfallBadge": "Critical Deficit: ₹2,10,000",
+    "confidenceLabel": "Forecast Confidence: 82%",
+    "runwayCountdown": "18 days left before deficit impacts cash reserves",
+    "whyTitle": "Why is this shortfall happening?",
+    "whySubtitle": "Ranked contribution factors driving the Day 18 liquidity deficit:",
+    "bridgeOfferBanner": "A pre-approved bridge loan of ₹2,30,000 is available to cover this gap.",
+    "unlockBridge": "Unlock ₹2.3L Bridge Micro-Loan",
+    "factors": {
+      "invoiceDelay": "Customer Receivable Delay",
+      "tax": "Statutory GST Remittance",
+      "payroll": "Artisan & Tailor Wages"
+    }
+  },
+  "receivables": {
+    "title": "Invoices & Customer Delay Intelligence",
+    "subtitle": "14 open invoices analyzed against historical payment habits for Sharma Garments.",
+    "filterAll": "All Invoices (14)",
+    "filterCritical": "Critical Delay (4)",
+    "filterModerate": "Moderate Delay (4)",
+    "filterSafe": "On Time / Safe (6)",
+    "table": {
+      "invoiceNo": "Invoice #",
+      "customer": "Customer & City",
+      "amount": "Amount",
+      "dueDate": "Due Date",
+      "predictedDate": "Predicted Pay Date",
+      "historicalLag": "Historical Lag",
+      "riskStamp": "Delay Risk",
+      "action": "Action"
+    },
+    "linkedBadge": "Linked to Bridge Loan Offer",
+    "viewReason": "View Delay Analysis"
+  },
+  "loan": {
+    "title": "One-Tap Invoice-Linked Bridge Credit",
+    "subtitle": "Pre-approved short-term micro-loan to bridge the Day 18 ₹2.1L shortfall.",
+    "demoDisclaimer": "DEMO MODE: Integrated with simulated lender Shivalik Small Finance Bank.",
+    "offer": {
+      "sanctioned": "Sanctioned Amount",
+      "tenure": "Tenure",
+      "flatInterest": "Interest (1.2% flat)",
+      "fees": "Processing Fee + GST",
+      "netDisbursal": "Net Disbursal to Current A/C",
+      "totalRepayable": "Total Repayable",
+      "linkedInvoice": "Auto-Repay Linked Invoice",
+      "lender": "Lending Partner"
+    },
+    "kfsTitle": "Key Facts Statement (KFS) - RBI Digital Lending Norms",
+    "consentCheckbox": "I agree to the Key Facts Statement and authorize Shivalik Small Finance Bank to auto-settle this bridge loan upon realization of Invoice #INV-2026-089.",
+    "ctaDisburse": "Disburse ₹2,29,457 to Bank Account Now",
+    "disbursing": "Disbursing via IMPS to HDFC Bank...",
+    "success": {
+      "title": "Disbursal Successful!",
+      "message": "₹2,29,457 has been credited to HDFC Bank (•••• 4912). Your Day 18 cash gap is fully bridged.",
+      "timelineTitle": "Auto-Repayment Schedule",
+      "returnHome": "Back to Cash Forecast"
+    }
+  },
+  "connect": {
+    "title": "Connect Financial Data",
+    "subtitle": "CashBridge AI works best with live accounting and bank feeds.",
+    "statusConnected": "Connected & Synced",
+    "statusDisconnected": "Not Connected",
+    "connectBtn": "Connect Source",
+    "syncNow": "Sync Now",
+    "simulating": "Connecting & Fetching Ledger Data...",
+    "tallyDesc": "Direct XML/ODBC sync with Tally Prime 4.1 for sales, purchases, and ledger entries.",
+    "quickbooksDesc": "Cloud accounting API sync for automated invoice aging and payment trail.",
+    "aaDesc": "RBI-regulated Account Aggregator consent for live bank statement feeds.",
+    "csvDesc": "Upload Excel or CSV export from Tally or your bank statement."
+  },
+  "assistant": {
+    "buttonLabel": "Ask Khata AI",
+    "title": "Khata AI Assistant",
+    "subtitle": "Ask questions about your cashflow, invoices, and loans in Hindi or English.",
+    "placeholder": "Ask: 'Kab tak Kapoor Retailers se payment aayegi?'",
+    "send": "Ask",
+    "suggestionsTitle": "Common Questions:",
+    "q1": "Why is Day 18 showing a shortfall?",
+    "q2": "When will Kapoor Retailers pay their bill?",
+    "q3": "How does auto-repayment work for the bridge loan?",
+    "a1": "Day 18 has a ₹2.1L deficit because Kapoor Retailers' ₹1.85L invoice is delayed, while GST (₹1.4L) and artisan wages (₹1.15L) are due simultaneously.",
+    "a2": "Kapoor Retailers typically pays 41 days late. While due on 24 Oct, our AI models predict their funds will clear around 20 Nov 2026.",
+    "a3": "When Kapoor Retailers transfers ₹1.85L to your HDFC Current Account, our banking integration detects the receipt and auto-settles the loan principal and interest."
+  }
+}

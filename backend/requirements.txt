@@ -1,0 +1,17 @@
+# Backend Python packages with pinned versions for reproducibility
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+sqlalchemy==2.0.36
+alembic==1.14.0
+pandas==2.2.3
+numpy==2.2.0
+python-dotenv==1.0.1
+ruff==0.8.4
+pytest==8.3.4
+httpx==0.28.1
+python-telegram-bot==21.9
+python-multipart==0.0.19
+aiofiles==24.1.0
+matplotlib==3.10.0
+scipy==1.15.0

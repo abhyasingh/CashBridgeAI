@@ -1,0 +1,1252 @@
+{
+  "cashbridge_master_dataset.csv": {
+    "file": "cashbridge_master_dataset.csv",
+    "rows": 12480,
+    "cols": 60,
+    "columns": {
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "business_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "sector": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 9
+      },
+      "size_class": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3
+      },
+      "state": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 22
+      },
+      "district": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 94
+      },
+      "accounting_software": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 4
+      },
+      "vintage_years": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 23,
+        "min": 1.0,
+        "max": 25.0,
+        "mean": 7.81
+      },
+      "annual_turnover_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 119,
+        "min": 1254340.0,
+        "max": 1462534864.0,
+        "mean": 96012991.35
+      },
+      "employees": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 45,
+        "min": 1.0,
+        "max": 1265.0,
+        "mean": 51.49
+      },
+      "district_total_msme_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 94,
+        "min": 1819.0,
+        "max": 705534.0,
+        "mean": 116289.92
+      },
+      "demo_showcase": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.03
+      },
+      "week_index": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 104,
+        "min": 0.0,
+        "max": 103.0,
+        "mean": 51.5
+      },
+      "week_start": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 104
+      },
+      "month": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.57
+      },
+      "week_of_year": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 52,
+        "min": 1.0,
+        "max": 52.0,
+        "mean": 26.5
+      },
+      "fy_quarter": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 9
+      },
+      "festive_season_flag": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.15
+      },
+      "gst_week_flag": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.23
+      },
+      "opening_balance": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12443,
+        "min": -17379517.0,
+        "max": 286232642.0,
+        "mean": 10098159.48
+      },
+      "inflow_invoice_receipts": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 10975,
+        "min": 0.0,
+        "max": 173648988.0,
+        "mean": 2146188.06
+      },
+      "inflow_cash_upi_sales": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 8522,
+        "min": 0.0,
+        "max": 2142937.0,
+        "mean": 109880.27
+      },
+      "inflow_owner_infusion": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 20,
+        "min": 0.0,
+        "max": 41746639.0,
+        "mean": 4165.25
+      },
+      "operating_inflow": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 11666,
+        "min": 0.0,
+        "max": 173648988.0,
+        "mean": 2256068.33
+      },
+      "total_inflow": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 11672,
+        "min": 0.0,
+        "max": 173648988.0,
+        "mean": 2260233.58
+      },
+      "outflow_supplier_purchases": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 11672,
+        "min": 0.0,
+        "max": 54723806.0,
+        "mean": 1201168.73
+      },
+      "outflow_salaries": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2854,
+        "min": 0.0,
+        "max": 73415746.0,
+        "mean": 405311.32
+      },
+      "outflow_rent": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 121,
+        "min": 0.0,
+        "max": 6646037.0,
+        "mean": 68293.32
+      },
+      "outflow_utilities": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2804,
+        "min": 0.0,
+        "max": 3874685.0,
+        "mean": 44274.66
+      },
+      "outflow_gst_tax": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 3289,
+        "min": 0.0,
+        "max": 41936122.0,
+        "mean": 154549.55
+      },
+      "outflow_loan_emi": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 55,
+        "min": 0.0,
+        "max": 5586856.0,
+        "mean": 35713.79
+      },
+      "outflow_other_opex_capex": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 8658,
+        "min": 0.0,
+        "max": 37700352.0,
+        "mean": 70880.46
+      },
+      "operating_outflow": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12318,
+        "min": 0.0,
+        "max": 90367237.0,
+        "mean": 1980191.82
+      },
+      "outflow_owner_drawings": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 1021,
+        "min": 0.0,
+        "max": 100139828.0,
+        "mean": 272373.38
+      },
+      "total_outflow": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12331,
+        "min": 0.0,
+        "max": 119060020.0,
+        "mean": 2252565.21
+      },
+      "net_cash_flow": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12366,
+        "min": -88848061.0,
+        "max": 107574617.0,
+        "mean": 7668.38
+      },
+      "closing_balance": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12444,
+        "min": -17379517.0,
+        "max": 286232642.0,
+        "mean": 10105827.85
+      },
+      "min_balance_in_week": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12252,
+        "min": -17379517.0,
+        "max": 261196637.0,
+        "mean": 9130054.0
+      },
+      "min_cash_buffer_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 120,
+        "min": 33835.0,
+        "max": 44756144.0,
+        "mean": 2608406.76
+      },
+      "is_cash_gap": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.04
+      },
+      "buffer_gap_amount_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 444,
+        "min": 0.0,
+        "max": 42017588.0,
+        "mean": 27105.68
+      },
+      "invoices_issued_count": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 29,
+        "min": 0.0,
+        "max": 30.0,
+        "mean": 4.0
+      },
+      "invoices_issued_value": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 11013,
+        "min": 0.0,
+        "max": 169375607.0,
+        "mean": 2193493.56
+      },
+      "open_invoice_count": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 135,
+        "min": 0.0,
+        "max": 144.0,
+        "mean": 27.9
+      },
+      "open_receivables_value": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12196,
+        "min": 0.0,
+        "max": 576333357.0,
+        "mean": 18165426.31
+      },
+      "overdue_receivables_value": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 11113,
+        "min": 0.0,
+        "max": 259825002.0,
+        "mean": 5928826.52
+      },
+      "overdue_receivables_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 919,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.38
+      },
+      "dso_days": {
+        "dtype": "float64",
+        "nulls": 361,
+        "unique": 1342,
+        "min": 0.0,
+        "max": 365.0,
+        "mean": 60.1
+      },
+      "avg_payment_delay_days_this_week": {
+        "dtype": "float64",
+        "nulls": 1161,
+        "unique": 723,
+        "min": -5.0,
+        "max": 151.0,
+        "mean": 16.9
+      },
+      "rolling_avg_delay_days_8w": {
+        "dtype": "float64",
+        "nulls": 14,
+        "unique": 566,
+        "min": -4.5,
+        "max": 89.6,
+        "mean": 17.04
+      },
+      "top_customer_share_of_receivables": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 798,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.34
+      },
+      "inflow_4w_avg": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12132,
+        "min": 0.0,
+        "max": 100126740.0,
+        "mean": 2248744.11
+      },
+      "outflow_4w_avg": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12330,
+        "min": 0.0,
+        "max": 44795208.0,
+        "mean": 1978623.14
+      },
+      "net_burn_4w": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12272,
+        "min": -64035286.0,
+        "max": 21834233.0,
+        "mean": -270120.97
+      },
+      "inflow_volatility_8w": {
+        "dtype": "float64",
+        "nulls": 362,
+        "unique": 1691,
+        "min": 0.042,
+        "max": 2.828,
+        "mean": 0.7
+      },
+      "cash_runway_weeks": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 284,
+        "min": 0.0,
+        "max": 52.0,
+        "mean": 6.1
+      },
+      "gap_next_4w": {
+        "dtype": "float64",
+        "nulls": 480,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.07
+      },
+      "gap_next_13w": {
+        "dtype": "float64",
+        "nulls": 1560,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.15
+      },
+      "shortfall_next_13w_inr": {
+        "dtype": "float64",
+        "nulls": 1560,
+        "unique": 265,
+        "min": 0.0,
+        "max": 42017588.0,
+        "mean": 195615.85
+      },
+      "weeks_to_first_gap_13w": {
+        "dtype": "float64",
+        "nulls": 10894,
+        "unique": 13,
+        "min": 1.0,
+        "max": 13.0,
+        "mean": 5.32
+      }
+    },
+    "date_range": {
+      "week_start": {
+        "min": "2024-10-28",
+        "max": "2026-10-19"
+      }
+    },
+    "duplicates": 0
+  },
+  "invoices.csv": {
+    "file": "invoices.csv",
+    "rows": 53117,
+    "cols": 22,
+    "columns": {
+      "invoice_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 53117
+      },
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "customer_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3257
+      },
+      "customer_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 440
+      },
+      "customer_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 5
+      },
+      "invoice_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 842
+      },
+      "payment_terms_days": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 6,
+        "min": 0.0,
+        "max": 60.0,
+        "mean": 32.43
+      },
+      "due_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 871
+      },
+      "amount_excl_gst_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 30892,
+        "min": 100.0,
+        "max": 93100570.0,
+        "mean": 487438.25
+      },
+      "gst_amount_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 29794,
+        "min": 5.0,
+        "max": 16758103.0,
+        "mean": 66243.31
+      },
+      "invoice_amount_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 38483,
+        "min": 105.0,
+        "max": 109858673.0,
+        "mean": 553681.56
+      },
+      "status_at_snapshot": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3
+      },
+      "paid_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 4013,
+        "unique": 624
+      },
+      "delay_days": {
+        "dtype": "float64",
+        "nulls": 4013,
+        "unique": 157,
+        "min": -5.0,
+        "max": 151.0,
+        "mean": 16.65
+      },
+      "is_late": {
+        "dtype": "float64",
+        "nulls": 4013,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.49
+      },
+      "days_overdue_at_snapshot": {
+        "dtype": "float64",
+        "nulls": 49104,
+        "unique": 118,
+        "min": 0.0,
+        "max": 146.0,
+        "mean": 10.0
+      },
+      "customer_prior_invoice_count": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 260,
+        "min": 0.0,
+        "max": 259.0,
+        "mean": 24.74
+      },
+      "customer_prior_paid_count": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 233,
+        "min": 0.0,
+        "max": 235.0,
+        "mean": 22.13
+      },
+      "customer_avg_prior_delay_days": {
+        "dtype": "float64",
+        "nulls": 2815,
+        "unique": 4153,
+        "min": -5.0,
+        "max": 150.0,
+        "mean": 13.97
+      },
+      "customer_prior_late_rate": {
+        "dtype": "float64",
+        "nulls": 2815,
+        "unique": 707,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.46
+      },
+      "invoice_month": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 12,
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.84
+      },
+      "issued_before_window": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.06
+      }
+    },
+    "date_range": {
+      "invoice_date": {
+        "min": "2024-07-01",
+        "max": "2026-10-25"
+      },
+      "due_date": {
+        "min": "2024-07-24",
+        "max": "2026-12-23"
+      },
+      "paid_date": {
+        "min": "2024-10-28",
+        "max": "2026-10-24"
+      }
+    },
+    "duplicates": 0
+  },
+  "bank_transactions.csv": {
+    "file": "bank_transactions.csv",
+    "rows": 96627,
+    "cols": 10,
+    "columns": {
+      "txn_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 96627
+      },
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "txn_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 728
+      },
+      "direction": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 2
+      },
+      "category": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 13
+      },
+      "counterparty": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 1161
+      },
+      "amount_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 68462,
+        "min": 33.0,
+        "max": 109858673.0,
+        "mean": 582857.06
+      },
+      "payment_mode": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 7
+      },
+      "linked_invoice_id": {
+        "dtype": "str",
+        "nulls": 47523,
+        "unique": 49104
+      },
+      "day_end_balance_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 59537,
+        "min": -17379517.0,
+        "max": 331927068.0,
+        "mean": 13948708.02
+      }
+    },
+    "date_range": {
+      "txn_date": {
+        "min": "2024-10-28",
+        "max": "2026-10-25"
+      }
+    },
+    "duplicates": 0
+  },
+  "recurring_commitments.csv": {
+    "file": "recurring_commitments.csv",
+    "rows": 774,
+    "cols": 5,
+    "columns": {
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "category": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 7
+      },
+      "frequency": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3
+      },
+      "amount_inr": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 773,
+        "min": 1577.0,
+        "max": 69561947.0,
+        "mean": 701890.51
+      },
+      "next_due_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 15
+      }
+    },
+    "date_range": {
+      "next_due_date": {
+        "min": "2026-10-27",
+        "max": "2026-12-15"
+      }
+    },
+    "duplicates": 0
+  },
+  "bridge_loan_offers.csv": {
+    "file": "bridge_loan_offers.csv",
+    "rows": 164,
+    "cols": 24,
+    "columns": {
+      "offer_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 164
+      },
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 54
+      },
+      "alert_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 85
+      },
+      "gap_start_date": {
+        "dtype": "datetime64[us]",
+        "nulls": 0,
+        "unique": 74
+      },
+      "alert_lead_weeks": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 3,
+        "min": 2.0,
+        "max": 4.0,
+        "mean": 2.99
+      },
+      "gap_duration_weeks": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 14,
+        "min": 1.0,
+        "max": 18.0,
+        "mean": 2.72
+      },
+      "projected_shortfall_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 161,
+        "min": 5000.0,
+        "max": 45696303.0,
+        "mean": 1296293.51
+      },
+      "actual_shortfall_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 164,
+        "min": 1140.0,
+        "max": 42017588.0,
+        "mean": 1265935.75
+      },
+      "forecast_confidence_pct": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 23,
+        "min": 70.0,
+        "max": 92.0,
+        "mean": 81.97
+      },
+      "recommended_loan_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 109,
+        "min": 10000.0,
+        "max": 50270000.0,
+        "mean": 1428414.63
+      },
+      "tenure_days": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 10,
+        "min": 21.0,
+        "max": 90.0,
+        "mean": 32.24
+      },
+      "apr_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 91,
+        "min": 14.7,
+        "max": 33.7,
+        "mean": 24.77
+      },
+      "processing_fee_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 11,
+        "min": 1.0,
+        "max": 2.0,
+        "mean": 1.54
+      },
+      "linked_invoice_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 163
+      },
+      "linked_invoice_amount_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 163,
+        "min": 22995.0,
+        "max": 52697219.0,
+        "mean": 1647793.48
+      },
+      "risk_band": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 4
+      },
+      "credit_limit_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 44,
+        "min": 0.0,
+        "max": 91410000.0,
+        "mean": 2389298.78
+      },
+      "decision": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 2
+      },
+      "decline_reason": {
+        "dtype": "str",
+        "nulls": 106,
+        "unique": 2
+      },
+      "accepted": {
+        "dtype": "float64",
+        "nulls": 58,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.9
+      },
+      "repayment_status": {
+        "dtype": "str",
+        "nulls": 69,
+        "unique": 2
+      },
+      "days_to_repay": {
+        "dtype": "float64",
+        "nulls": 69,
+        "unique": 27,
+        "min": 3.0,
+        "max": 42.0,
+        "mean": 15.26
+      },
+      "interest_charged_inr": {
+        "dtype": "float64",
+        "nulls": 69,
+        "unique": 93,
+        "min": 32.0,
+        "max": 275177.0,
+        "mean": 13248.12
+      },
+      "total_repayment_inr": {
+        "dtype": "float64",
+        "nulls": 69,
+        "unique": 94,
+        "min": 10036.0,
+        "max": 50545177.0,
+        "mean": 1571353.38
+      }
+    },
+    "date_range": {
+      "alert_date": {
+        "min": "2024-10-28",
+        "max": "2026-10-05"
+      },
+      "gap_start_date": {
+        "min": "2024-11-18",
+        "max": "2026-10-19"
+      }
+    },
+    "duplicates": 0
+  },
+  "msme_profiles.csv": {
+    "file": "msme_profiles.csv",
+    "rows": 120,
+    "cols": 27,
+    "columns": {
+      "msme_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "business_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 120
+      },
+      "sector": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 9
+      },
+      "size_class": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3
+      },
+      "state": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 22
+      },
+      "district": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 94
+      },
+      "annual_turnover_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 119,
+        "min": 1254340.0,
+        "max": 1462534864.0,
+        "mean": 96012991.35
+      },
+      "employees": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 45,
+        "min": 1.0,
+        "max": 1265.0,
+        "mean": 51.49
+      },
+      "vintage_years": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 23,
+        "min": 1.0,
+        "max": 25.0,
+        "mean": 7.81
+      },
+      "accounting_software": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 4
+      },
+      "gst_registered": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 1
+      },
+      "has_existing_term_loan": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 2
+      },
+      "monthly_emi_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 55,
+        "min": 0.0,
+        "max": 5586856.0,
+        "mean": 154759.77
+      },
+      "min_cash_buffer_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 120,
+        "min": 33835.0,
+        "max": 44756144.0,
+        "mean": 2608406.76
+      },
+      "opening_balance_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 120,
+        "min": 107531.0,
+        "max": 135660501.0,
+        "mean": 10159344.5
+      },
+      "avg_weekly_operating_outflow_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 120,
+        "min": 25406.0,
+        "max": 31818546.0,
+        "mean": 1980191.79
+      },
+      "n_customers": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 45,
+        "min": 4.0,
+        "max": 82.0,
+        "mean": 27.38
+      },
+      "top_customer_share": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 100,
+        "min": 0.074,
+        "max": 0.508,
+        "mean": 0.22
+      },
+      "preferred_language": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 11
+      },
+      "alert_channel": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 3
+      },
+      "district_total_msme_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 94,
+        "min": 1819.0,
+        "max": 705534.0,
+        "mean": 116289.92
+      },
+      "cashbridge_credit_score": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 90,
+        "min": 417.0,
+        "max": 830.0,
+        "mean": 691.62
+      },
+      "risk_band": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 4
+      },
+      "credit_limit_inr": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 96,
+        "min": 0.0,
+        "max": 91410000.0,
+        "mean": 6065958.33
+      },
+      "historical_on_time_payment_rate": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 98,
+        "min": 0.455,
+        "max": 0.795,
+        "mean": 0.64
+      },
+      "demo_showcase": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.03
+      },
+      "demo_persona": {
+        "dtype": "str",
+        "nulls": 117,
+        "unique": 3
+      }
+    },
+    "date_range": {},
+    "duplicates": 0
+  },
+  "district_msme_context.csv": {
+    "file": "district_msme_context.csv",
+    "rows": 785,
+    "cols": 13,
+    "columns": {
+      "state": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 36
+      },
+      "state_id": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 36,
+        "min": 1.0,
+        "max": 38.0,
+        "mean": 17.97
+      },
+      "district": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 780
+      },
+      "lgd_district_code": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 785,
+        "min": 1.0,
+        "max": 785.0,
+        "mean": 393.0
+      },
+      "micro_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 781,
+        "min": 40.0,
+        "max": 687194.0,
+        "mean": 34568.54
+      },
+      "small_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 544,
+        "min": 0.0,
+        "max": 19475.0,
+        "mean": 908.23
+      },
+      "medium_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 203,
+        "min": 0.0,
+        "max": 3283.0,
+        "mean": 86.31
+      },
+      "total_units": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 781,
+        "min": 40.0,
+        "max": 705534.0,
+        "mean": 35563.09
+      },
+      "micro_share_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 344,
+        "min": 88.36,
+        "max": 100.0,
+        "mean": 97.98
+      },
+      "small_share_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 328,
+        "min": 0.0,
+        "max": 10.26,
+        "mean": 1.88
+      },
+      "medium_share_pct": {
+        "dtype": "float64",
+        "nulls": 0,
+        "unique": 308,
+        "min": 0.0,
+        "max": 1.687,
+        "mean": 0.14
+      },
+      "state_msme_total": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 36,
+        "min": 955.0,
+        "max": 4600352.0,
+        "mean": 1311581.88
+      },
+      "district_rank_in_india": {
+        "dtype": "int64",
+        "nulls": 0,
+        "unique": 781,
+        "min": 1.0,
+        "max": 785.0,
+        "mean": 392.99
+      }
+    },
+    "date_range": {},
+    "duplicates": 0
+  },
+  "data_dictionary.csv": {
+    "file": "data_dictionary.csv",
+    "rows": 161,
+    "cols": 3,
+    "columns": {
+      "file": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 7
+      },
+      "column": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 137
+      },
+      "description": {
+        "dtype": "str",
+        "nulls": 0,
+        "unique": 154
+      }
+    },
+    "date_range": {},
+    "duplicates": 0
+  }
+}
